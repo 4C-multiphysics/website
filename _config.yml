@@ -23,3 +23,6 @@ permalink: /:categories/:year/:month/:day/:title
 # Build settings
 markdown: kramdown
 exclude: ["README.md"]
+
+gems:
+  - jekyll-target-blank
