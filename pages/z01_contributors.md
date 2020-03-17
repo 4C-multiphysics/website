@@ -7,8 +7,8 @@ layout: default
 
 # Contributing Institutes and Organizations
 
-- [Institute for Computational Mechanics](https://www.lnm.mw.tum.de)
-- [Institute for Mathematics and Computer-Based Simulation](https://www.unibw.de/imcs-en)
+- [Institute for Computational Mechanics](www.lnm.mw.tum.de)
+- [Institute for Mathematics and Computer-Based Simulation](www.unibw.de/imcs-en)
 - HZG
 
 # Developers in Alphabetical Order
