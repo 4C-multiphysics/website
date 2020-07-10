@@ -5,7 +5,7 @@ permalink: contributors.html
 layout: default
 ---
 
-# Contributing Institutes and Organizations
+# Contributing Institutes
 
 - [Institute for Computational Mechanics, Technical University of Munich](https://www.lnm.mw.tum.de)
 - [Institute for Mathematics and Computer-Based Simulation, Universität der Bundeswehr München](https://www.unibw.de/imcs-en)
@@ -13,35 +13,35 @@ layout: default
 
 # Developers in Alphabetical Order
 
-- Abhiroop Satheesh
-- Alessandro Acri
-- Alexander Popp
-- Amadeus Gebauer
-- Andrea La Spina
-- Anh-Tu Vuong
-- Barbara Wirthl
-- Carolin Geitner
-- Christian Cyron
-- Christoph Meier
-- Christoph Schmidt
-- Harald Willmann
-- Ivo Steinbrecher
-- Jan Schnabel
-- Johannes Kremheller
-- Jonas Eichinger
-- Jonas Nitzler
-- Luca Berardocco
-- Martin Kronbichler
-- Matthias Mayr
-- Maximilian Grill
-- Mert Civaner
-- Mostafa Faraji
-- Nora Hagmeyer
-- Sebastian Brandstäter
-- Sebastian Fuchs
-- Sebastian Pröll
-- Stephan Sinzig
-- Vladimir Ivannikov
-- Yushen Sun
+- Acri, Alessandro
+- Berardocco, Luca
+- Brandstäter, Sebastian
+- Civaner, Mert
+- Cyron, Christian
+- Eichinger, Jonas
+- Faraji, Mostafa
+- Fuchs, Sebastian
+- Gebauer, Amadeus
+- Geitner, Carolin
+- Grill, Maximilian
+- Hagmeyer, Nora
+- Ivannikov, Vladimir
+- Kremheller, Johannes
+- Kronbichler, Martin
+- La Spina, Andrea
+- Mayr, Matthias
+- Meier, Christoph
+- Nitzler, Jonas
+- Popp, Alexander
+- Pröll, Sebastian
+- Satheesh, Abhiroop
+- Schmidt, Christoph
+- Schnabel, Jan
+- Sinzig, Stephan
+- Steinbrecher, Ivo
+- Sun, Yushen
+- Vuong, Anh-Tu
+- Willmann, Harald
+- Wirthl, Barbara
 
-If you have contributed to BACI in the past and would like to be listed here, please send us an email!
+If you have contributed to BACI in the past and would like to be listed here, please send us an email to sekretariat@lnm.mw.tum.de!
