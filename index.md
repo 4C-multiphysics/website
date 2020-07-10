@@ -4,7 +4,7 @@ title: About BACI
 permalink: index.html
 ---
 
-# BACI: Research in Computational Multi-Physics
+# BACI: A Comprehensive Multi-Physics Simulation Framework
 
 **BACI** ("Bavarian Advanced Computational Initiative") is a parallel multi-physics research code to analyze and solve a plethora of physical problems by means of _computational mechanics_. 
 
