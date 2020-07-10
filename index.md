@@ -24,6 +24,8 @@ The research software is fully implemented in C++
 using an object-oriented and modular software design.
 **BACI** is parallelized with MPI for distributed memory hardware architectures.
 
-For a detailed list of scientific contributions -- in both method development as well as application-driven research -- see the [list of publications](Publications).
+**BACI** is jointly developed by several reasearch groups across Germany (see the [list of contributors](Contributors) for details)
+and in collaboration with many research partners from academia and industry.
+For a detailed list of scientific contributions - in both method development as well as application-driven research - see the [list of publications](Publications).
 
 
