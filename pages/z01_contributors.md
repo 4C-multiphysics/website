@@ -5,109 +5,43 @@ permalink: contributors.html
 layout: default
 ---
 
-# Contributing Institutes and Organizations
+# Contributing Institutes
 
-- [Institute for Computational Mechanics](www.lnm.mw.tum.de)
-- [Institute for Mathematics and Computer-Based Simulation](www.unibw.de/imcs-en)
-- HZG
+- [Institute for Computational Mechanics, Technical University of Munich](https://www.lnm.mw.tum.de)
+- [Institute for Mathematics and Computer-Based Simulation, Universität der Bundeswehr München](https://www.unibw.de/imcs-en)
+- [Institute of Materials Research, Materials Mechanics, Simulation of Solids and Structures, Helmholtz-Zentrum Geesthacht](https://www.hzg.de/institutes_platforms/materials_research/materials_mechanics/simulation/index.php.en)
 
 # Developers in Alphabetical Order
 
 - Acri, Alessandro
-- Ager, Christoph
-- Bauer, Georg
 - Berardocco, Luca
-- Bertoglio, Christobal
-- Biehler, Jonas
-- Birzle, Anna
-- Borneman, Burkhard
-- Bos, Frederick
-- Bräu, Fabian
 - Brandstäter, Sebastian
-- Brunon, Aline
-- Cattabiani, Alessandro
 - Civaner, Mert
-- Comerford, Andrew
-- Coroneo, Mirella
 - Cyron, Christian
-- Danowski, Caroline
-- Devaal, Hamman
-- Devaki, Srinath
-- Ehrl, Andreas
 - Eichinger, Jonas
-- Fang, Rui
-- Farah, Philipp
 - Faraji, Mostafa
-- Förster, Christiane
-- Frenzel, Moritz
 - Fuchs, Sebastian
-- Gamnitzer, Peter
 - Gebauer, Amadeus
-- Gee, Michael
 - Geitner, Carolin
-- Gerstenberger, Axel
-- Gitterle, Markus
-- Gravemeier, Volker
 - Grill, Maximilian
 - Hagmeyer, Nora
-- Hahn, Manual
-- Hammerl, Georg
-- Hemmler, Andre
-- Henke, Florian
-- Hiermeier, Michael
-- Hirschvogel, Marc
-- Hörmann, Julia
-- Ismail, Mahmoud
 - Ivannikov, Vladimir
-- Jagschies, Lasse
-- Kehl, Sebastian
-- Klöppel, Thomas
-- Krank, Benjamin
 - Kremheller, Johannes
 - Kronbichler, Martin
-- Kruse, Raffaela
-- Küttler, Heinrich
-- Küttler, Ulrich
-- La, Andrea
-- Lammersen, Christoph
-- Lenz, Stefan
-- Maier, Andreas
-- Mayer, Ursula
+- La Spina, Andrea
 - Mayr, Matthias
 - Meier, Christoph
-- Metzke, Robert
-- Müller, Kei
-- Mukherjee, Dhrubajyoti
-- Nagler, Andreas
-- Nissen, Keijon
 - Nitzler, Jonas
-- Pfaller, Martin
 - Popp, Alexander
 - Pröll, Sebastian
-- Rasthofer, Ursula
-- Rauch, Andreas
-- Rausch, Sophie
-- Roth, Christian
 - Satheesh, Abhiroop
 - Schmidt, Christoph
 - Schnabel, Jan
-- Schoeder, Svenja
-- Schott, Benedikt
-- Seitz, Alexander
-- Shahmiri, Shadan
 - Sinzig, Stephan
 - Steinbrecher, Ivo
 - Sun, Yushen
-- Thon, Moritz
-- Tinkl, Susanna
-- Verdugo, Francesc
 - Vuong, Anh-Tu
-- Wichmann, Karl-Robert
-- Wiesner, Tobias
 - Willmann, Harald
-- Winklmaier, Martin
-- Winter, Magnus
 - Wirthl, Barbara
-- Wirtz, Andy
-- Yogaraj, Sudhakar
-- Yoshihara, Lena
+
+If you have contributed to BACI in the past and would like to be listed here, please send us an email to sekretariat@lnm.mw.tum.de!
