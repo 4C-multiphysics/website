@@ -22,8 +22,11 @@ To propose a change to the website, follow these steps:
 1. Open an issue to announce and discuss upcoming changes (optional).
 1. Clone the repository.
 1. Create a feature branch, where you will make any change.
+1. To inspect your chagnes, run `bundle exec jekyll serve` from the terminal and follow the instructions there. 
 1. Commit changes. Push the branch to `gitlab.lrz.de`.
 1. Open a merge request.
+
+> Note: You might want to do a quick internet search for more details on `jekyll`, in case that these instructions are not sufficient.
 
 Since this website represents BACI publically,
 merging of MRs (i.e. actually publishing changes) always requires another set of eyes. Hence, every MR requires approval by `CODEOWNERS`. Only @baci/baci_maintainer can approve and merge MRs.
