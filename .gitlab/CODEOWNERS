@@ -1,0 +1,16 @@
+# ---------------------------------------------------------------------------- #
+# BACI code owners file
+#
+# eligible code owners:
+#  * baci maintainer group (@baci/baci_maintainer)
+#
+# note:
+# The order in which the paths are defined is significant: the last pattern that matches a given path will be used to find the code owners.
+#
+# refer to:
+# https://docs.gitlab.com/ee/user/project/code_owners.html
+# ---------------------------------------------------------------------------- #
+
+# --- specify default code owner --------------------------------------------- #
+*                                  @baci/baci_maintainer
+
