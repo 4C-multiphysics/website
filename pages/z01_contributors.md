@@ -7,9 +7,9 @@ layout: default
 
 # Contributing Institutes
 
-- [Institute for Computational Mechanics, Technical University of Munich](https://www.lnm.mw.tum.de)
-- [Institute for Mathematics and Computer-Based Simulation, Universität der Bundeswehr München](https://www.unibw.de/imcs-en)
-- [Institute of Materials Research, Materials Mechanics, Simulation of Solids and Structures, Helmholtz-Zentrum Geesthacht](https://www.hzg.de/institutes_platforms/materials_research/materials_mechanics/simulation/index.php.en)
+- [Institute for Computational Mechanics](https://www.lnm.mw.tum.de) (Prof. Dr.-Ing. Wolfgang A. Wall), Technical University of Munich
+- [Institute for Mathematics and Computer-Based Simulation](https://www.unibw.de/imcs-en) (Prof. Dr.-Ing. Alexander Popp), University of the Bundeswehr Munich
+- [Institute of Materials Research, Materials Mechanics, Simulation of Solids and Structures](https://www.hzg.de/institutes_platforms/materials_research/materials_mechanics/simulation/index.php.en) (Prof. Dr.-Ing. Christian J. Cyron), Helmholtz-Zentrum Geesthacht
 
 # Developers in Alphabetical Order
 
