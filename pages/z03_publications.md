@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-permalink: /publications/
+permalink: publications.html
 ---
 
 These publications and research findings have been enabled through BACI:
