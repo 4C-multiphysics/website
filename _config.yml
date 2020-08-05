@@ -16,15 +16,19 @@ url: "https://baci.pages.gitlab.lrz.de" # the base hostname & protocol for your 
 #twitter_username: jekyllrb
 #github_username:  jekyll
 #gitlab_username:  pages
+
 #bibtex bibliography
 plugins_dir: ['jekyll/scholar']
 scholar:
   style: apa
   locale: en
 
-  sort_by: year
+  sort_by: author
   order: ascending
-
+  
+  group_by: year
+  group_order: descending 
+  
   source: ./_bibliography
   bibliography: references.bib
 
@@ -32,9 +36,8 @@ scholar:
   details_layout: bibtex.html
   details_link:   Details
   
-  group_by: year
-
   query: "@*"  
+  
 # Outputting
 permalink: /:categories/:year/:month/:day/:title
 
