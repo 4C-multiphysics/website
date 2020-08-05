@@ -4,10 +4,10 @@ title: Publications
 permalink: publications.html
 ---
 
-These publications and research findings have been enabled through BACI:
+# Journal publications in which BACI has been used
 
 {% bibliography --file papers %}
 
-These PhD theses have been enabled through BACI:
+# PhD theses in which BACI has been used
 
 {% bibliography --file phdtheses %}
