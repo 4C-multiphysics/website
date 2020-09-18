@@ -12,6 +12,17 @@ BACI: A Comprehensive Multi-Physics Simulation Framework, https://baci.pages.git
 
 Remember: It is good scientific practice to include the date, when you've visisted that website, into the citation. It's up to you (and your advisor) to include the date, depending on the type of publication.
 
+## How to add a new publication to the website?
+
+The BACI website contains a list of all publications, that have been created with the help of BACI. When your new BACI-related publication has been published and all its bibliographic details (e.g. volume, issue, DOI, ...) are known, please add the publication to the list of publications.
+
+Bibliographic data is stored in the `bibtex` format in two files:
+
+- `<sourceDir>/_bibliography/papers.bib` for journal publications
+- `<sourceDir>/_bibliography/phdtheses.bib` for PhD theses
+
+From a technical point of view, adding a publication happens by commiting to these files. For details, see the section on [How to contribute/update the website?](#How-to-contribute-update-the-website)
+
 ## How to contribute/update the website?
 
 Since this is a "regular" `git` repository,
