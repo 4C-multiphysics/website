@@ -19,10 +19,12 @@ we use a regular branch-based `git` workflow.
 
 To propose a change to the website, follow these steps:
 
-1. Open an issue to announce and discuss upcoming changes (optional).
+1. Open an issue to announce and discuss upcoming changes (optional, but recommended).
 1. Clone the repository.
 1. Create a feature branch, where you will make any change.
-1. To inspect your chagnes, run `bundle exec jekyll serve` from the terminal and follow the instructions there. 
+1. To inspect your changes, navigate into the website source code directory and
+    1. for setup: run `bundle install`
+    1. run `bundle exec jekyll serve` from the terminal and follow the instructions there.
 1. Commit changes. Push the branch to `gitlab.lrz.de`.
 1. Open a merge request.
 
