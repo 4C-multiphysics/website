@@ -21,9 +21,9 @@ layout: default
 - Eichinger, Jonas
 - Faraji, Mostafa
 - Fuchs, Sebastian
-- Gravemeier, Volker
 - Gebauer, Amadeus
 - Geitner, Carolin
+- Gravemeier, Volker
 - Grill, Maximilian
 - Hagmeyer, Nora
 - Ivannikov, Vladimir
