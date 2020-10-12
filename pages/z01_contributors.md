@@ -19,6 +19,7 @@ layout: default
 - Civaner, Mert
 - Cyron, Christian
 - Eichinger, Jonas
+- Fang, Rui
 - Faraji, Mostafa
 - Fuchs, Sebastian
 - Gebauer, Amadeus
