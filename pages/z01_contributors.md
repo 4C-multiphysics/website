@@ -9,7 +9,7 @@ layout: default
 
 - [Institute for Computational Mechanics](https://www.lnm.mw.tum.de)<br>(Prof. Dr.-Ing. Wolfgang A. Wall), Technical University of Munich
 - [Institute for Mathematics and Computer-Based Simulation](https://www.unibw.de/imcs-en)<br>(Prof. Dr.-Ing. Alexander Popp), University of the Bundeswehr Munich
-- [Institute of Materials Research, Materials Mechanics, Simulation of Solids and Structures](https://www.hzg.de/institutes_platforms/materials_research/materials_mechanics/simulation/index.php.en)<br>(Prof. Dr.-Ing. Christian J. Cyron), Helmholtz-Zentrum Geesthacht
+- [Institute of Material Systems Modeling](https://www.hereon.de/institutes/material_systems_modeling/index.php.en)<br>(Prof. Dr.-Ing. Christian J. Cyron), Helmholtz-Zentrum Hereon
 
 # Developers in Alphabetical Order
 
