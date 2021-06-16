@@ -42,6 +42,7 @@ layout: default
 - Kronbichler, Martin
 - La Spina, Andrea
 - Lenz, Stefan
+- Loera, Gabriela
 - Maier, Andreas
 - Mayr, Matthias
 - Meier, Christoph
@@ -57,6 +58,7 @@ layout: default
 - Schnabel, Jan
 - Shahmiri, Shadan
 - Sinzig, Stephan
+- Steimer, Christopher
 - Steinbrecher, Ivo
 - Sun, Yushen
 - Verdugo, Francesc
