@@ -7,7 +7,7 @@ layout: default
 
 # Contributing Institutes
 
-- [Institute for Computational Mechanics](https://www.lnm.mw.tum.de)<br>(Prof. Dr.-Ing. Wolfgang A. Wall), Technical University of Munich
+- [Institute for Computational Mechanics](https://www.epc.ed.tum.de/lnm/)<br>(Prof. Dr.-Ing. Wolfgang A. Wall), Technical University of Munich
 - [Institute for Mathematics and Computer-Based Simulation](https://www.unibw.de/imcs-en)<br>(Prof. Dr.-Ing. Alexander Popp), University of the Bundeswehr Munich
 - [Institute of Material Systems Modeling](https://www.hereon.de/institutes/material_systems_modeling/index.php.en)<br>(Prof. Dr.-Ing. Christian J. Cyron), Helmholtz-Zentrum Hereon
 
@@ -69,4 +69,4 @@ layout: default
 - Wirtz, Andy
 - Yogaraj, Sudhakar
 
-If you have contributed to BACI in the past and would like to be listed here, please send us an email to sekretariat@lnm.mw.tum.de!
+If you have contributed to BACI in the past and would like to be listed here, please send us an email to sekretariat.lnm@ed.tum.de!
