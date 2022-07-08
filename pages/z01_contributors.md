@@ -68,5 +68,6 @@ layout: default
 - Wirthl, Barbara
 - Wirtz, Andy
 - Yogaraj, Sudhakar
+- Yoshihara, Lena
 
 If you have contributed to BACI in the past and would like to be listed here, please send us an email to sekretariat.lnm@ed.tum.de!
