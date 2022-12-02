@@ -1,4 +1,4 @@
-image: ruby:2.3
+image: ruby:2.5
 
 variables:
   JEKYLL_ENV: production
@@ -6,19 +6,22 @@ variables:
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d test
+  - bundle config set --local path 'vendor/bundle'
+  - bundle install
+  - bundle exec jekyll build -d website
   artifacts:
     paths:
-    - test
-  except:
-  - master
+    - website/
 
 pages:
   stage: deploy
   script:
-  - bundle exec jekyll build -d public
+  - mv website public
   artifacts:
     paths:
     - public
+  needs:
+  - job: test
+    artifacts: true
   only:
   - master
