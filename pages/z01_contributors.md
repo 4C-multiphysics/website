@@ -20,29 +20,36 @@ layout: default
 - Bornemann, Burkhard
 - Brandstäter, Sebastian
 - Bürkle, Caroline
+- Bui, Hoang-Giang
 - Civaner, Mert
 - Cyron, Christian
+- Datz, Janina
 - de Vaal, Hamman
 - Eichinger, Jonas
+- Engelhardt, Laura
 - Fang, Rui
 - Faraji, Mostafa
+- Firmbach, Max
 - Fuchs, Sebastian
 - Gamnitzer, Peter
 - Gebauer, Amadeus
 - Geitner, Carolin
 - Gitterle, Markus
+- Goderbauer, Benedikt
 - Gravemeier, Volker
 - Grill, Maximilian
 - Hagmeyer, Nora
 - Hammerl, Georg
 - Hörmann, Julia
 - Ivannikov, Vladimir
+- Köglmeier, Lea
 - Krank, Benjamin
 - Kremheller, Johannes
 - Kronbichler, Martin
 - La Spina, Andrea
 - Lenz, Stefan
 - Loera, Gabriela
+- Ludwig, Maximilian
 - Maier, Andreas
 - Mayr, Matthias
 - Meier, Christoph
@@ -51,6 +58,7 @@ layout: default
 - Nitzler, Jonas
 - Pfaller, Martin
 - Popp, Alexander
+- Praegla, Patrick
 - Pröll, Sebastian
 - Rauch, Andreas
 - Satheesh, Abhiroop
@@ -61,6 +69,7 @@ layout: default
 - Steimer, Christopher
 - Steinbrecher, Ivo
 - Sun, Yushen
+- Temür, Buğrahan
 - Verdugo, Francesc
 - Vuong, Anh-Tu
 - Willmann, Harald
