@@ -28,4 +28,4 @@ using an object-oriented and modular software design.
 and in collaboration with many research partners from academia and industry.
 For a detailed list of scientific contributions - in both method development as well as application-driven research - see the [list of publications](publications.html).
 
-
+**Disclaimer**: **BACI** is developed for research purposes in the field of numerical method development. It is not intended for any use beyond that and in particular generally not for any form of safety-relevant or safety-critical calculations or for an application in connection with physical products.
