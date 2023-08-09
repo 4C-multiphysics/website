@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{ENV:HTTPS} !On
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [redirect=permanent,last]

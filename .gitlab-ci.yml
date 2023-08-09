@@ -3,25 +3,36 @@ image: ruby:2.5
 variables:
   JEKYLL_ENV: production
 
-test:
+build_4c-multiphysics.org:
   stage: test
   script:
   - bundle config set --local path 'vendor/bundle'
   - bundle install
   - bundle exec jekyll build -d website
+  - cp .htaccess website/
   artifacts:
     paths:
     - website/
+  
+publish_4c-multiphysics.org:
+  stage: deploy
+  needs:
+  - job: build_4c-multiphysics.org
+    artifacts: true
+  only:
+  - $CI_DEFAULT_BRANCH
+  script:
+  - rsync -rpt -e ssh --delete website/ di35non@webdev02-mwn.lrz.de:/nfs/web_tum/www/n/di35non/webserver/htdocs
+  
 
 pages:
   stage: deploy
   script:
-  - mv website public
+  - rm -rf public
+  - mkdir public
+  - mv gitlab_pages_redirect.html public/index.html
   artifacts:
     paths:
     - public
-  needs:
-  - job: test
-    artifacts: true
   only:
-  - master
+  - $CI_DEFAULT_BRANCH
