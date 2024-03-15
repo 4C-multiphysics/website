@@ -6,7 +6,7 @@ permalink: index.html
 
 # BACI: A Comprehensive Multi-Physics Simulation Framework
 
-**BACI** ("Bavarian Advanced Computational Initiative") is a parallel multi-physics research code to analyze and solve a plethora of physical problems by means of _computational mechanics_. 
+**BACI** ("Bavarian Advanced Computational Initiative") is a multi-physics research code to analyze and solve a plethora of physical problems by means of _computational mechanics_ allowing parallel computing through MPI integration. 
 
 **BACI** provides simulation capabilities for a variety of physical models, including
 
@@ -19,7 +19,7 @@ Pre- and post-processing tools facilitate the use of **BACI** within streamlined
 Large parts of **BACI** are based on finite element methods (FEM, CutFEM),
 but alternative discretization methods such as discontinuous Galerkin methods (DG),
 particle methods and mesh-free methods have also been successfully integrated.
-**BACI** leverages the [**Trilinos project**](https://trilinos.github.io) for sparse linear algebra, nonlinear solvers, and linear solvers and preconditioners.
+**BACI** leverages the [**Trilinos project**](https://trilinos.github.io) for sparse linear algebra, nonlinear solvers, linear solvers and preconditioners.
 The research software is fully implemented in C++
 using an object-oriented and modular software design.
 **BACI** is parallelized with MPI for distributed memory hardware architectures.
