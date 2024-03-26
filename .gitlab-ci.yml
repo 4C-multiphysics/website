@@ -19,14 +19,17 @@ publish_4c-multiphysics.org:
   needs:
   - job: build_4c-multiphysics.org
     artifacts: true
-  only:
-  - $CI_DEFAULT_BRANCH
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
   - rsync -rpt -e ssh --delete website/ di35non@webdev02-mwn.lrz.de:/nfs/web_tum/www/n/di35non/webserver/htdocs
   
 
 pages:
   stage: deploy
+  needs:
+  - job: build_4c-multiphysics.org
+    artifacts: true
   script:
   - rm -rf public
   - mkdir public
@@ -34,5 +37,5 @@ pages:
   artifacts:
     paths:
     - public
-  only:
-  - $CI_DEFAULT_BRANCH
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
