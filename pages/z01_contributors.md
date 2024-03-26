@@ -1,6 +1,6 @@
 ---
 title: Contributors
-keywords: baci contributors developers
+keywords: baci 4C contributors developers
 permalink: contributors.html
 layout: default
 ---
@@ -79,4 +79,4 @@ layout: default
 - Yogaraj, Sudhakar
 - Yoshihara, Lena
 
-If you have contributed to BACI in the past and would like to be listed here, please send us an email to sekretariat.lnm@ed.tum.de!
+If you have contributed to 4C (formerly BACI) in the past and would like to be listed here, please send us an email to <sekretariat.lnm@ed.tum.de>!
