@@ -4,9 +4,9 @@ title: About 4C
 permalink: index.html
 ---
 
-# 4C: Comprehensive Computational Community Code
+# 4C: A Comprehensive Multi-Physics Simulation Framework
 
-**4C** (formerly BACI) is a multi-physics research code to analyze and solve a plethora of physical problems by means of _computational mechanics_ allowing parallel computing through MPI integration.
+**4C** (Comprehensive Computational Community Code, formerly BACI) is a multi-physics research code to analyze and solve a plethora of physical problems by means of _computational mechanics_ allowing parallel computing through MPI integration.
 
 **4C** provides simulation capabilities for a variety of physical models, including
 
