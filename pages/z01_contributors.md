@@ -14,6 +14,7 @@ layout: default
 # Developers in Alphabetical Order
 
 - Acri, Alessandro
+- Balachandran, Dharini
 - Bauer, Georg
 - Berardocco, Luca
 - Birzle, Anna
@@ -30,6 +31,8 @@ layout: default
 - Fang, Rui
 - Faraji, Mostafa
 - Firmbach, Max
+- Frank, Martin
+- Frey, Moritz
 - Fuchs, Sebastian
 - Gamnitzer, Peter
 - Gebauer, Amadeus
@@ -51,6 +54,7 @@ layout: default
 - Loera, Gabriela
 - Ludwig, Maximilian
 - Maier, Andreas
+- Maradni, Bishr
 - Mayr, Matthias
 - Meier, Christoph
 - Mukherjeek, Dhrubajyoti
@@ -65,6 +69,7 @@ layout: default
 - Schmidt, Christoph
 - Schnabel, Jan
 - Shahmiri, Shadan
+- Shaw, Rishav
 - Sinzig, Stephan
 - Steimer, Christopher
 - Steinbrecher, Ivo
