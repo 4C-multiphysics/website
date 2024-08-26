@@ -1,20 +1,25 @@
-image: ruby:2.5
-
-variables:
-  JEKYLL_ENV: production
-
 build_4c-multiphysics.org:
+  image: ruby:3.3
   stage: test
+  variables:
+    JEKYLL_ENV: production
   script:
   - bundle config set --local path 'vendor/bundle'
   - bundle install
   - bundle exec jekyll build -d website
   - cp .htaccess website/
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   artifacts:
     paths:
     - website/
+  tags:
+    - docker
+  interruptible: true
   
 publish_4c-multiphysics.org:
+  image: alpine:3.18
   stage: deploy
   needs:
   - job: build_4c-multiphysics.org
@@ -23,9 +28,12 @@ publish_4c-multiphysics.org:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
   - rsync -rpt -e ssh --delete website/ di35non@webdev02-mwn.lrz.de:/nfs/web_tum/www/n/di35non/webserver/htdocs
+  tags:
+    - docker
   
 
 pages:
+  image: alpine:3.18
   stage: deploy
   needs:
   - job: build_4c-multiphysics.org
@@ -39,3 +47,5 @@ pages:
     - public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  tags:
+    - docker
