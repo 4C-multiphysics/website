@@ -1,41 +1,67 @@
-build_4c-multiphysics.org:
+variables:
+  JEKYLL_ENV: production
+  WEBSITE_URL: https://www.4c-multiphysics.org
+  PREVIEW_DIRECTORY: _preview
+
+.build:
   image: ruby:3.3
-  stage: test
-  variables:
-    JEKYLL_ENV: production
+  stage: build
   script:
-  - bundle config set --local path 'vendor/bundle'
-  - bundle install
-  - bundle exec jekyll build -d website
-  - cp .htaccess website/
-  rules:
-    - if: $CI_MERGE_REQUEST_IID
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - bundle config set --local path 'vendor/bundle'
+    - bundle install
+    - "echo \"baseurl: $WEBSITE_ROOT_PATH\nurl: $WEBSITE_URL\" > config.yml"
+    - bundle exec jekyll build -d website --config _config.yml,config.yml
+    - cp .htaccess website/
   artifacts:
     paths:
-    - website/
+      - website/
   tags:
     - docker
-  interruptible: true
-  
-publish_4c-multiphysics.org:
+
+preview:
+  extends: .build
+  variables:
+    WEBSITE_ROOT_PATH: /$PREVIEW_DIRECTORY/$CI_MERGE_REQUEST_IID
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+
+production:
+  extends: .build
+  variables:
+    WEBSITE_ROOT_PATH: ""
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+
+publish_preview:
   stage: deploy
   needs:
-  - job: build_4c-multiphysics.org
+    - job: preview
+      artifacts: true
+  rules:
+    - if: $CI_MERGE_REQUEST_IID
+  script:
+    - ssh di35non@webdev02-mwn.lrz.de mkdir -p /nfs/web_tum/www/n/di35non/webserver/htdocs/$PREVIEW_DIRECTORY/$CI_MERGE_REQUEST_IID
+    # ensure password protection
+    - rsync -rpt -e ssh $PREVIEW_DIRECTORY/ di35non@webdev02-mwn.lrz.de:/nfs/web_tum/www/n/di35non/webserver/htdocs/$PREVIEW_DIRECTORY
+    - rsync -rpt -e ssh --delete website/ di35non@webdev02-mwn.lrz.de:/nfs/web_tum/www/n/di35non/webserver/htdocs/$PREVIEW_DIRECTORY/$CI_MERGE_REQUEST_IID
+
+
+publish_production:
+  stage: deploy
+  needs:
+  - job: production
     artifacts: true
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
   script:
-  - rsync -rpt -e ssh --delete website/ di35non@webdev02-mwn.lrz.de:/nfs/web_tum/www/n/di35non/webserver/htdocs
-  tags:
-    - shell
+  - rsync -rpt -e ssh --delete --exclude $PREVIEW_DIRECTORY website/ di35non@webdev02-mwn.lrz.de:/nfs/web_tum/www/n/di35non/webserver/htdocs
   
 
 pages:
   image: alpine:3.18
   stage: deploy
   needs:
-  - job: build_4c-multiphysics.org
+  - job: production
     artifacts: true
   script:
   - rm -rf public

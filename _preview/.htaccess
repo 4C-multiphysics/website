@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthName "4C website preview" 
+AuthUserFile /nfs/web_tum/www/n/di35non/webserver/config/pwd_file
+Require valid-user
