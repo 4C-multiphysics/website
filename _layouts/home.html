@@ -1,0 +1,90 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+{% if page.include_title %}
+<div class="container">
+    <h1 class="title">4C: A Comprehensive Multi-Physics Simulation Framework</h1>
+</div>
+{% endif %}
+
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-8 col-lg-8 order-2 order-md-1">
+                {{ content }}
+                {% if page.show_call_box %}
+                {% include mission.html show_button=true %}
+                {% endif %}
+            </div>
+            {% if page.intro_image %}
+            <div class="col-12 col-md-4 col-lg-4 order-1 order-md-2 position-relative">
+                <img alt="{{ page.title }}"
+                    class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+                    src="{{ site.logo.desktop | relURL }}" />
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="strip">
+    <div class="container pt-6 pb-6">
+        <h1><a href="{{ "capabilities" | relative_url }}">Featured examples</a></h1>
+    </div>
+    <div class="container">
+        <div class="row justify-content-start">
+            {% for capability in site.data.examples %}
+            {% if capability.featured %}
+            <div class="col-12 col-md-4 mb-1">
+                <div class="feature">
+                    {% if capability.image %}
+                    <div class="feature-image">
+                        <img alt="{{ feature.title }}"
+                            src="{{ capability.image.url | relative_url }}"
+                            width=auto
+                            height=auto
+                        />
+                    </div>
+                    {% endif %}
+                    <h2 class="feature-title">{{ capability.title }}</h2>
+                    <div class="feature-content">{{ capability.description }}</div>
+                </div>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a class="button button-primary" href="{{ "capabilities" | relative_url }}">View All Examples</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if site.data.institutions %}
+<div class="strip strip-grey">
+    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+        <div class="row justify-content-center">
+
+            {% for institution in site.data.institutions %}
+            <div class="col-12 col-md-3 col-lg-3 mb-2">
+                <div class="feature">
+                    {% if institution.image %}
+                    <div class="feature-image"><img alt="{{ institution.name }} logo"
+                            src="{{ institution.image.url | relative_url }}"
+                            width="{{ institution.image.width }}"
+                            height="{{ institution.image.height }}"/>
+                        </div>
+                    {% endif %}
+                    <h2 class="feature-title">{{ institution.name }}</h2>
+                    <div class="feature-content">{{ institution.institute }}</div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endif %}

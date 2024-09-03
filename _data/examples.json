@@ -1,0 +1,143 @@
+[
+  {
+    "title": "Beam-Fluid Coupling",
+    "image": {
+      "url": "/images/capabilities/beam-fluid-interaction.png",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": true,
+    "description": "A fully coupled regularized mortar-type finite element approach for embedding one-dimensional fibers into three-dimensional fluid flow",
+    "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/nme.7435",
+    "author": "Nora Hagmeyer"
+  },
+  {
+    "title": "Multiphysics: electro-mechanical simulation",
+    "image": {
+      "url": "/images/capabilities/stomach_henke.png",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": false,
+    "description": "Peristaltic contractions of human stomach, modelled using monolithic electro-mechanical coupling",
+    "author": "Maire Henke"
+  },
+  {
+    "title": "Geometrically exact beams",
+    "image": {
+      "url": "/images/capabilities/beam-biopolymer-network.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": false,
+    "description": "Geometrically exact beam element formulation for biopolymer network construction.",
+    "link": "https://link.springer.com/article/10.1007/s10237-021-01480-2",
+    "author": "Jonas Eichinger"
+  },
+  {
+    "title": "FEM shell contact",
+    "image": {
+      "url": "/images/capabilities/FEM-contact-dynamics.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": false,
+    "description": "Large-scale contact dynamics of thinwalled structures.",
+    "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/nme.5748",
+    "author": "Alexander Popp"
+  },
+  {
+    "title": "SPH for melting processes",
+    "image": {
+      "url": "/images/capabilities/SPH-Selective-laser-melting.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": true,
+    "description": "Multiphysics SPH simulation of additive manufacturing (SLM).",
+    "link": "https://doi.org/10.1007/s00366-022-01724-4",
+    "author": "Sebastian Fuchs"
+  },
+  {
+    "title": "FEM simulation of biomaterials",
+    "image": {
+      "url": "/images/capabilities/FE-saccular-aneurysm.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": false,
+    "description": "Finite element simulation of growth of saccular cerebral aneurysm.",
+    "link": "https://link.springer.com/article/10.1007/s10659-021-09833-9",
+    "author": "Sebastian Brandstädter"
+  },
+  {
+    "title": "Scalar transport - solid interaction (SSI)",
+    "image": {
+      "url": "/images/capabilities/SSI-electro-physiology-heart.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": true,
+    "description": "SSI modeling the electro-physiology and mechanical active deformation of a human heart.",
+    "author": "N. N."
+  },
+  {
+    "title": "FEM-DEM coupling",
+    "image": {
+      "url": "/images/capabilities/DEM-FEM-rigid-particles-on-membrane.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": true,
+    "description": "Coupling a DEM with a FEM discretization to simulate the impact of rigid particles onto an elastic membrane.",
+    "author": "N. N."
+  },
+  {
+    "title": "Fluid-Structure Interaction (FSI)",
+    "image": {
+      "url": "/images/capabilities/fsi-abdominal-aneurism.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": true,
+    "description": "Fluid-structure interaction blood flow in abdominal aortic aneurysm.",
+    "link": "https://link.springer.com/article/10.1007/s10237-014-0618-0",
+    "author": "Jonas Biehler"
+  },
+  {
+    "title": "SPH Multiphysics simulation",
+    "image": {
+      "url": "/images/capabilities/FSI-SPH.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": false,
+    "description": "Fluid-structure interaction simulation with SPH.",
+    "author": "N. N."
+  },
+  {
+    "title": "Bio-cell simulation with FEM",
+    "image": {
+      "url": "/images/capabilities/FEM-biocells-in-biotissue.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": false,
+    "description": "Finite element simulation of interactions of biological cells with extra-cellular matrix in soft biological tissue.",
+    "author": "Daniel Paukner"
+  },
+  {
+    "title": "Scalar-transport-electro interaction",
+    "image": {
+      "url": "/images/capabilities/Scatra-electro-Li-ion-charging.jpg",
+      "width": 400,
+      "height": "auto"
+    },
+    "featured": true,
+    "description": "Simulation of a Lithium-ion battery discharge process",
+    "link": "https://iopscience.iop.org/article/10.1149/1945-7111/ad0264/meta",
+    "author": "Stephan Sinzig"
+  }
+]
+
+

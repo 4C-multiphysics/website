@@ -1,0 +1,57 @@
+---
+layout: default
+bodyClass: "page-capabilities"
+---
+
+<!--
+<div class="container pb-6 pt-6 pt-md-6 pb-md-10">
+    <h1>{{ page.title }}</h1>
+    <h2>Capabilities</h2>
+</div>
+
+<div class="row  mb-3">
+    <div class="container">
+    <div class="col-12 col-md-8">
+        {{ content }}
+    </div>
+    </div>
+</div>
+-->
+<div class="container pb-6 pt-6 pt-md-6 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <h1>{{page.title}}</h1>
+            <div class="service service-single pt-2">
+                <div class="content_serifheader">{{content}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="strip">
+    <div class="container pt-6 pb-6">
+        <h2>Examples</h2>
+        <div class="row justify-content-start">
+            {% for capability in site.data.examples %}
+            <div class="col-12 col-md-4 mb-1">
+                <div class="feature">
+                    {% if capability.image %}
+                    <div class="feature-image">
+                        <img alt="{{ feature.title }}"
+                            src="{{ capability.image.url | relative_url }}"
+                            width=auto
+                            height=auto
+                        />
+                    </div>
+                    {% endif %}
+                    <h2 class="feature-title">{{ capability.title }}</h2>
+                    <div class="feature-content">{{ capability.description }}</div>
+                    {% if capability.link %}
+                    <div class=feature-content"><a href="{{ capability.link }}">Project link</a></div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

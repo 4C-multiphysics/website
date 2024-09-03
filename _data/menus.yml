@@ -1,0 +1,32 @@
+main:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Capabilities and examples"
+    url: "/capabilities/"
+    weight: 1
+#  - name: "Code"
+#    url: "/code.html"
+#    weight: 3
+  - name: "Associated projects"
+    url: "/associated_projects/"
+    weight: 4
+  - name: "History"
+    url: "/history/"
+    weight: 97
+  - name: "Contributing"
+    url: "/contributors/"
+    weight: 98
+  - name: "Publications"
+    url: "/publications/"
+    weight: 99
+footer:
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2
+  - name: "Privacy"
+    url: "https://www.epc.ed.tum.de/lnm/datenschutz/"
+    weight: 3
+  - name: "Imprint"
+    url: "https://www.epc.ed.tum.de/lnm/impressum/"
+    weight: 4
