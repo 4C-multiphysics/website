@@ -4,6 +4,7 @@ layout: page_serifheader
 description: "The more than 20 year long history of 4C"
 permalink: "/history/"
 banner: true
+banner_hide_on_mobile: true
 ---
 
 The development of 4C arose from the need to tackle challenging research questions in and with numerical methods 

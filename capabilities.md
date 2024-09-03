@@ -4,6 +4,7 @@ layout: capabilities
 description: Features and examples 
 permalink: "/capabilities/"
 banner: true
+banner_hide_on_mobile: true
 ---
 
 ## Capabilities

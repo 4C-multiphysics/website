@@ -3,10 +3,10 @@ title: 4C
 layout: home
 description: 
 banner: true
+banner_hide_on_mobile: true
 intro_image: "images/illustrations/4c_logo.png"
 intro_image_absolute: false
 intro_image_hide_on_mobile: true
-include_title: true
 show_call_box: false
 ---
 
