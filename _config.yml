@@ -1,4 +1,4 @@
-baseurl: "/website/"
+baseurl: "/"
 permalink: /:categories/:year/:month/:day/:title
 url: "https://www.4c-multiphysics.org" # the base hostname & protocol for your site
 title: '4C'
