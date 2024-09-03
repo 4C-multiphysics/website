@@ -1,0 +1,34 @@
+---
+layout: page
+bodyClass: "page-contact"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+    {% for contact in site.data.contact %}
+        <div class="col-12 col-md-8 pb-2">
+            <div class="service service-single">
+
+                <div class="call">
+                    <div class="call-box-top">
+                        {% if contact.institute %}
+                        <div class="call-institute">
+                            <a href="{{ contact.institutelink }}">
+                                {{ contact.institute }}
+                            </a>
+                        </div>
+                        {% endif %}
+                        {% if contact.university %}
+                        <div class="call-university"> {{ contact.university }} </div>
+                        {% endif %}
+                        {% if contact.email-address %}
+                        <div class=""><a href="mailto: {{ contact.email-address }}">{{ contact.email-name }}</a></div>
+                        {% endif %}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>

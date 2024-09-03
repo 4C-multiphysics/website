@@ -1,0 +1,29 @@
+[
+    {
+        "institute": "Institute for Computational Mechanics",
+        "name": "Technical University of Munich",
+        "image": {
+            "url": "images/features/TUM_Logo_blau_rgb_s.svg",
+            "width": 100,
+            "height": 100
+        }
+    },
+    {
+        "institute": "Institute for Mathematics and Computer-Based Simulation",
+        "name": "University of the Bundeswehr Munich",
+        "image": {
+            "url": "images/features/unibw.png",
+            "width": 80,
+            "height": 95
+        }
+    },
+    {
+        "institute": "Institute for Material Systems Modeling",
+        "name": "Helmholtz-Center Hereon",
+        "image": {
+            "url": "images/features/hereon-logo.jpg",
+            "width": 100,
+            "height": 80
+        }
+    }
+]

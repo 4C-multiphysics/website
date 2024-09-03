@@ -1,0 +1,18 @@
+[
+    { institute: 'Institute for Computational Mechanics',
+      university: 'Technische Universität München',
+      institutelink: 'https://www.epc.ed.tum.de/lnm/home/',
+      contact_button_link: 'contact',
+      email-name: "Prof. Dr.-Ing. W. A. Wall",
+      email-address: "sekretariat.lnm@ed.tum.de"
+    }
+#  ,
+#    {
+#        institute: 'New Institute',
+#        university: 'The address is given in _data/contact.json',
+#        institutelink: 'https://www.google.com',
+#        contact_button_link: 'contact',
+#        email-name: "Prof. Dr.-Ing. M. Musterperson",
+#        email-address: "info@4c-multiphysics.org"
+#    }
+]

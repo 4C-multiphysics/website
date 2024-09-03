@@ -1,0 +1,59 @@
+---
+layout: default
+bodyClass: "page-community"
+permalink: "/contributor/"
+
+---
+
+<div class="container pt-2">
+    <h1>{{ page.title }}</h1>
+</div>
+
+
+<div class="container pt-2 pt-md-2">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="contributor contributor-single">
+        <div class="content">{{content}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container pt-2 pb-2">
+    <div class="row">
+        {% for institution in site.data.institutions %}
+        <div class="col-12 col-md-4 mb-2">
+            <div class="feature">
+                {% if institution.image %}
+                <div class="feature-image">
+                    <img width="90" height="90" alt="{{ institution.name }} logo" class="img-fluid mb-2"
+                        src="{{ institution.image.url | relative_url }}" />
+                </div>
+                {% endif %}
+                <h2 class="feature-title">{{ institution.name }}</h2>
+                <a target="_blank" href="{{ contributor.institution.url }}">
+                <div class="content">{{ institution.institute }}</div>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+
+<div class="container">
+  <h2>Developer in alphabetical order</h2>
+
+    <div class="row justify-content-start">
+      <ul>
+          {% for dev in site.data.developer %}
+            <li>{{ dev }}</li>
+          {% endfor %}
+      </ul>
+    </div>
+</div>
+

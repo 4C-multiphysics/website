@@ -1,53 +1,19 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.gitlab_username %}
-          <li>
-            {% include icon-gitlab.html username=site.gitlab_username %}
-          </li>
-          {% endif %}
-
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">{{site.title}}</h2>
+          <ul>
+            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+            {% for item in footermenu %}
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
-    
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <a href="https://www.epc.ed.tum.de/lnm/datenschutz/">Privacy</p>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <a href="https://www.epc.ed.tum.de/lnm/impressum/">Imprint</p>
-      </div>
-    </div>
-      
   </div>
-
-</footer>
+</div>

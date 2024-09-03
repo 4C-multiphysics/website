@@ -1,7 +1,10 @@
 _site
 .sass-cache
+.idea/
 .jekyll-metadata
 public/
 vendor/
 .bundle/
 website/
+_drafts/
+Gemfile.lock
