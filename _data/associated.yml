@@ -9,6 +9,6 @@
     "description": "A general purpose framework for Uncertainty Quantification, Physics-Informed Machine Learning, 
     Bayesian Optimization, Inverse Problems and Simulation Analytics on distributed computer systems. 
     In combination with 4C, Queens can be understood as a versatile wrapper for series’ of simulations.",
-    "link": "https://queens_community.pages.gitlab.lrz.de/website/"
+    "link": "https://www.queens-py.org/"
   }
 ]
