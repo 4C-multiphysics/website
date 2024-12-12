@@ -1,0 +1,34 @@
+name: build
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ruby:3.3
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build 4C website
+        uses: ./.github/actions/build_website
+        with:
+          website-root-path: ''
+          website-url: https://www.4c-multiphysics.org
+          build-dir: ${{ github.workspace }}/website
+      - name: Upload test report
+        uses: actions/upload-artifact@v4
+        with:
+          name: 4C-website
+          path: |
+            ${{ github.workspace }}/website/
+          retention-days: 1

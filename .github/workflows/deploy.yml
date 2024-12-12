@@ -1,0 +1,41 @@
+name: deploy
+
+on:
+  workflow_run:
+    workflows: [build]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: dawidd6/action-download-artifact@v6
+        with:
+          workflow: build.yml
+          name: 4C-website
+          path: ${{ github.workspace }}/website
+          branch: ${{ github.event.repository.default_branch }}
+          github_token: ${{ secrets.FOUR_C_WEBSITE_GITHUB_TOKEN }}
+      - name: Deploy webiste to 4c-multiphysics.org
+        shell: bash
+        run: |
+          sudo apt-get install -y lftp
+          cd $LOCAL_DIR
+          lftp -u $USERNAME --env-password $SERVER -e "set ftp:ssl-protect-data true; set ssl:verify-certificate false; cd $SERVER_DIR; mirror -R --delete . .; exit"
+        env:  
+          SERVER: ${{ vars.FOUR_C_WEBSITE_SERVER }}
+          USERNAME: ${{ vars.FOUR_C_WEBSITE_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FOUR_C_WEBSITE_PASSWORD }}
+          SERVER_DIR: ${{ vars.FOUR_C_WEBSITE_BASE_PATH }}
+          LOCAL_DIR: ${{ github.workspace }}/website/
+            
