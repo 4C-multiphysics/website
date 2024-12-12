@@ -19,22 +19,12 @@ jobs:
       image: ruby:3.3
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Ruby
-        run: |
-          cd $GITHUB_WORKSPACE
-          gem install bundler
-          bundle config set --local path 'vendor/bundle'
-          bundle install
-      - name: Configure website
-        run: |
-          cd $GITHUB_WORKSPACE
-          echo "baseurl: $WEBSITE_ROOT_PATH" > config.yml
-          echo "url: $WEBSITE_URL" >> config.yml
-      - name: Build website
-        run: |
-          cd $GITHUB_WORKSPACE
-          bundle exec jekyll build -d website --config _config.yml,config.yml
-          cp .htaccess website/
+      - name: Build 4C website
+        uses: ./.github/actions/build_website
+        with:
+          website-root-path: ''
+          website-url: https://www.4c-multiphysics.org
+          build-dir: ${{ github.workspace }}/website
       - name: Upload test report
         uses: actions/upload-artifact@v4
         with:

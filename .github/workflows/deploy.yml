@@ -1,0 +1,56 @@
+name: deploy
+
+on:
+  workflow_run:
+    workflows: [build]
+    types: [completed]
+    #branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: dawidd6/action-download-artifact@v6
+        with:
+          workflow: build.yml
+          name: 4C-website
+          path: ${{ github.workspace }}/website
+          branch: ${{ github.event.repository.default_branch }}
+      - name: Show environment
+        shell: bash
+        run: |
+          echo $SERVER
+          echo $USERNAME
+          echo $PASSWORD
+          echo $PROTOCOL
+          echo $PORT
+          echo $SERVER_DIR
+          echo $LOCAL_DIR
+        env:
+            SERVER: ${{ env.FOUR_C_WEBSITE_SERVER }}
+            USERNAME: ${{ env.FOUR_C_WEBSITE_SERVER }}
+            PASSWORD: ${{ secrets.FOUR_C_WEBSITE_PASSWORD }}
+            PROTOCOL: sftp
+            PORT: 1234
+            SERVER_DIR: ${{ env.FOUR_C_WEBSITE_BASE_PATH }}
+            LOCAL_DIR: website
+      # - name: Deploy webiste to 4c-multiphysics.org
+      #   uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      #   with:
+      #       server: ${{ env.FOUR_C_WEBSITE_SERVER }}
+      #       username: ${{ env.FOUR_C_WEBSITE_SERVER }}
+      #       password: ${{ secrets.FOUR_C_WEBSITE_PASSWORD }}
+      #       protocol: sftp
+      #       port: 1234
+      #       server-dir: ${{ env.FOUR_C_WEBSITE_BASE_PATH }}
+      #       local-dir: website
+            
