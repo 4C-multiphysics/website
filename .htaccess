@@ -2,3 +2,5 @@ RewriteEngine On
 RewriteCond %{ENV:HTTPS} !On [nocase,or]
 RewriteCond "%{HTTP_HOST}" !=www.4c-multiphysics.org [nocase]
 RewriteRule ^(.*)$ https://www.4c-multiphysics.org/$1 [redirect=permanent,last]
+
+ErrorDocument 404 /404.html
