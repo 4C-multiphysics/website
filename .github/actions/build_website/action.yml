@@ -1,0 +1,43 @@
+name: Build 4C website
+description: Builds the 4C website for a specific URL and base path
+inputs:
+  website-root-path:
+    description: Root path of the website
+    required: false
+    default: ""
+  website-url:
+    description: URL of the website
+    required: false
+    default: https://www.4c-multiphysics.org
+  build-dir:
+    description: Directory where the website is built
+    required: false
+    default: website
+runs:
+  using: composite
+  steps:
+    - name: Set up Ruby
+      shell: bash
+      run: |
+        cd $GITHUB_WORKSPACE
+        gem install bundler
+        bundle config set --local path 'vendor/bundle'
+        bundle install
+    - name: Configure website
+      shell: bash
+      run: |
+        cd $GITHUB_WORKSPACE
+        echo "baseurl: $WEBSITE_ROOT_PATH" > config.yml
+        echo "url: $WEBSITE_URL" >> config.yml
+      env:
+        WEBSITE_ROOT_PATH: ${{ inputs.website-root-path }}
+        WEBSITE_URL: ${{ inputs.website-url }}
+    - name: Build website
+      shell: bash
+      run: |
+        cd $GITHUB_WORKSPACE
+        mkdir -p $BUILD_DIR
+        bundle exec jekyll build -d $BUILD_DIR --config _config.yml,config.yml
+        cp .htaccess $BUILD_DIR
+      env:
+        BUILD_DIR: ${{ inputs.build-dir }}
