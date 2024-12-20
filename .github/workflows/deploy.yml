@@ -25,7 +25,6 @@ jobs:
           name: 4C-website
           path: ${{ github.workspace }}/website
           branch: ${{ github.event.repository.default_branch }}
-          github_token: ${{ secrets.FOUR_C_WEBSITE_GITHUB_TOKEN }}
       - name: Deploy webiste to 4c-multiphysics.org
         shell: bash
         run: |
