@@ -5,9 +5,9 @@ main:
   - name: "Capabilities and examples"
     url: "/capabilities/"
     weight: 1
-#  - name: "Code"
-#    url: "/code.html"
-#    weight: 3
+  #  - name: "Code"
+  #    url: "/code.html"
+  #    weight: 3
   - name: "Associated projects"
     url: "/associated_projects/"
     weight: 4
@@ -20,6 +20,11 @@ main:
   - name: "Publications"
     url: "/publications/"
     weight: 99
+  - name: 4C on GitHub
+    url: https://github.com/4C-multiphysics/4C
+    weight: 100
+    image: images/social/github-mark.svg
+    image_mobile: images/social/github.svg
 footer:
   - name: "Contact"
     url: "/contact/"

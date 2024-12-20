@@ -1,9 +1,13 @@
 <div id="main-menu" class="main-menu">
-  {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
+  {% assign mainmenu = site.data.menus.main | sort: 'weight' %}
   <ul>
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url }}">{{ item.name }}</a>
+      <a href="{{ item.url }}">
+        {% if item.image %}<img src="{{ item.image | relative_url }}" alt="GitHub"
+          style="width: 20px; height: 20px; vertical-align: middle;">{% endif %}
+        {{ item.name }}
+      </a>
     </li>
     {% endfor %}
   </ul>
