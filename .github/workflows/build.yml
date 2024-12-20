@@ -25,10 +25,13 @@ jobs:
           website-root-path: ''
           website-url: https://www.4c-multiphysics.org
           build-dir: ${{ github.workspace }}/website
-      - name: Upload test report
+      - name: Copy .htaccess
+        run: cp $GITHUB_WORKSPACE/.htaccess $GITHUB_WORKSPACE/website/
+      - name: Upload website as artifact
         uses: actions/upload-artifact@v4
         with:
           name: 4C-website
           path: |
             ${{ github.workspace }}/website/
           retention-days: 1
+          include-hidden-files: true
