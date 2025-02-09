@@ -11,7 +11,7 @@ permalink: "/publications/"
 Whenever you mention 4C in some sort of scientific document/publication/presentation, please cite 4C as follows:
 
 ```
-4C: A Comprehensive Multi-Physics Simulation Framework, https://www.4c-multiphysics.org
+4C: A Comprehensive Multiphysics Simulation Framework, https://www.4c-multiphysics.org
 ```
 
 You could use the following BibTeX entry:
@@ -19,7 +19,7 @@ You could use the following BibTeX entry:
 ```bibtex
 @misc{4C,
   author       = {4C},
-  title        = {4C: A {C}omprehensive {M}ulti-{P}hysics {S}imulation {F}ramework},
+  title        = {4C: A {C}omprehensive {M}ultiphysics {S}imulation {F}ramework},
   howpublished = {\url{https://www.4c-multiphysics.org}},
   year         = {YEAR},
   note         = {Accessed: DATE}
