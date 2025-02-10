@@ -22,7 +22,7 @@ For flow problems, 4C comes with an incompressible Navier–Stokes solver (inclu
 For biomedical applications, reduced order models for flow in arteries or airways are available alongside suitable Windkessel models. 
 Finally, solvers for transport of scalar fields such as heat or chemical concentrations are available.
 
-With the intent to study multi-physics phenomena, 4C builds upon its single-field solvers to implement partitioned and monolithic multi-physics solvers for surface- and volume-coupled problems. 
+With the intent to study multiphysics phenomena, 4C builds upon its single-field solvers to implement partitioned and monolithic multiphysics solvers for surface- and volume-coupled problems. 
 In surface coupling, existing capabilities from the solid and structural mechanics module are coupled to incompressible fluid flow, 
 resulting in partitioned and monolithic FSI solvers using an arbitrary Lagrangean-Eulerian (ALE) description for deforming fluid domains with scalable multi-level solvers, 
 monolithic solvers for fixed-grid FSI based on CutFEM, or partitioned approaches for fluid-beam interaction. In volume-coupling, 
