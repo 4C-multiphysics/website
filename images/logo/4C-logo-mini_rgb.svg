@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 99.29 52.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3c3c3b;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .19px;
+      }
+
+      .cls-2 {
+        fill: #1f72b9;
+      }
+
+      .cls-3 {
+        fill: url(#Neues_Verlaufsfeld_4);
+      }
+
+      .cls-4 {
+        fill: #3c3c3b;
+      }
+    </style>
+    <linearGradient id="Neues_Verlaufsfeld_4" data-name="Neues Verlaufsfeld 4" x1="-20.21" y1="50.94" x2="-6.62" y2="32.75" gradientTransform="translate(48.74 -17.64) rotate(4.27)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4359a4"/>
+      <stop offset=".58" stop-color="#2daae1"/>
+      <stop offset="1" stop-color="#91d1df"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon class="cls-2" points="63.49 34.29 55.52 34.29 55.52 38.75 49.45 38.75 61.66 21.94 52.88 21.94 40.08 38.94 40.08 46.06 55.27 46.06 55.27 51.77 63.49 51.77 63.49 46.06 67.92 46.06 67.92 38.75 63.49 38.75 63.49 34.29"/>
+    <path class="cls-2" d="M90.72,44.48c-1.17.6-2.44.89-3.84.89-1.22,0-2.34-.2-3.37-.6-1.02-.4-1.9-.97-2.62-1.73-.72-.75-1.29-1.65-1.7-2.71-.41-1.05-.62-2.22-.62-3.49s.21-2.44.62-3.49c.41-1.05.98-1.95,1.7-2.71.72-.75,1.6-1.33,2.62-1.73,1.02-.4,2.14-.6,3.37-.6,1.39,0,2.67.3,3.84.9,1.16.6,2.23,1.46,3.2,2.6l5.37-4.86c-1.45-1.85-3.26-3.25-5.43-4.2-2.17-.95-4.64-1.43-7.39-1.43-2.36,0-4.53.38-6.52,1.13-1.99.75-3.72,1.82-5.2,3.2-1.48,1.38-2.63,3.02-3.45,4.92-.82,1.9-1.24,3.99-1.24,6.26s.41,4.36,1.24,6.26c.82,1.9,1.97,3.54,3.45,4.92,1.48,1.38,3.21,2.44,5.2,3.2,1.99.75,4.16,1.13,6.52,1.13,2.76,0,5.22-.48,7.39-1.45,2.17-.97,3.98-2.37,5.43-4.22l-5.37-4.86c-.97,1.17-2.03,2.05-3.2,2.64Z"/>
+  </g>
+  <path class="cls-4" d="M33.46,0C9.93,0,1.2,20.41.84,21.14l-.84,1.71.87,1.7c.4.78,8.24,20.61,34.9,21.52v-7.26c-18.97-1.48-24.88-11.95-27.55-15.99,2.53-3.67,10.36-15.61,25.23-15.61,11.49,0,17.78,7.13,20.16,10.58l8.79-.06c-.24-.69-6.72-17.74-28.95-17.74Z"/>
+  <path class="cls-3" d="M42.69,15.27l-7.35-4.98-8.84.88-6.2,6.32-.66,8.81,5.19,7.17,8.61,2.18,8-3.83,3.65-8.05-2.41-8.5ZM35.87,26.41l-3.2,1.53-3.45-.87-2.08-2.87.26-3.52,2.48-2.53,3.54-.35,2.94,1.99.97,3.4-1.46,3.22Z"/>
+  <g id="figure_1" data-name="figure 1">
+    <g id="axes_1" data-name="axes 1">
+      <g id="patch_2" data-name="patch 2">
+        <path class="cls-1" d="M39.25,25.94l.97-5.09-2.91,2.4,1.95,2.69Z"/>
+      </g>
+      <g id="patch_3" data-name="patch 3">
+        <path class="cls-1" d="M30.56,31.11l-5.44-3.35-.3,5.76,5.75-2.41Z"/>
+      </g>
+      <g id="patch_4" data-name="patch 4">
+        <path class="cls-1" d="M27.38,20.74l-3.85,1.47,3.59,2.06.26-3.52Z"/>
+      </g>
+      <g id="patch_5" data-name="patch 5">
+        <path class="cls-1" d="M31.32,14.38l-5.3,2.56,3.85,1.27,1.45-3.83Z"/>
+      </g>
+      <g id="patch_6" data-name="patch 6">
+        <path class="cls-1" d="M42.66,15.33l-7.35-4.98,1.71,5.77,5.64-.8Z"/>
+      </g>
+      <g id="patch_7" data-name="patch 7">
+        <path class="cls-1" d="M40.22,20.85l-3.88-1,.97,3.4,2.91-2.4Z"/>
+      </g>
+      <g id="patch_8" data-name="patch 8">
+        <path class="cls-1" d="M42.66,15.33l-2.45,5.52,4.86,2.98-2.41-8.5Z"/>
+      </g>
+      <g id="patch_9" data-name="patch 9">
+        <path class="cls-1" d="M37.03,16.12l-3.63,1.73,2.94,1.99.69-3.72Z"/>
+      </g>
+      <g id="patch_10" data-name="patch 10">
+        <path class="cls-1" d="M26.01,16.94l1.37,3.8,2.48-2.53-3.85-1.27Z"/>
+      </g>
+      <g id="patch_11" data-name="patch 11">
+        <path class="cls-1" d="M31.32,14.38l5.71,1.75-1.71-5.77-4,4.02Z"/>
+      </g>
+      <g id="patch_12" data-name="patch 12">
+        <path class="cls-1" d="M23.53,22.2l1.58,5.56,2.01-3.51-3.59-2.06Z"/>
+      </g>
+      <g id="patch_13" data-name="patch 13">
+        <path class="cls-1" d="M20.28,17.55l5.74-.61.46-5.71-6.2,6.32Z"/>
+      </g>
+      <g id="patch_14" data-name="patch 14">
+        <path class="cls-1" d="M25.11,27.77l4.08-.64-2.08-2.87-2.01,3.51Z"/>
+      </g>
+      <g id="patch_15" data-name="patch 15">
+        <path class="cls-1" d="M36.01,30.23l-.16-3.76-3.2,1.53,3.36,2.23Z"/>
+      </g>
+      <g id="patch_16" data-name="patch 16">
+        <path class="cls-1" d="M24.81,33.53l.3-5.76-5.49-1.41,5.19,7.17Z"/>
+      </g>
+      <g id="patch_17" data-name="patch 17">
+        <path class="cls-1" d="M33.42,35.71l-2.87-4.59-5.75,2.41,8.61,2.18Z"/>
+      </g>
+      <g id="patch_18" data-name="patch 18">
+        <path class="cls-1" d="M39.25,25.94l-1.95-2.69-1.46,3.22,3.41-.53Z"/>
+      </g>
+      <g id="patch_19" data-name="patch 19">
+        <path class="cls-1" d="M41.43,31.88l-5.42-1.65-2.58,5.48,8-3.83Z"/>
+      </g>
+      <g id="patch_20" data-name="patch 20">
+        <path class="cls-1" d="M39.25,25.94l2.18,5.94,3.65-8.05-5.82,2.11Z"/>
+      </g>
+      <g id="patch_21" data-name="patch 21">
+        <path class="cls-1" d="M39.25,25.94l-3.25,4.29,5.42,1.65-2.18-5.94Z"/>
+      </g>
+      <g id="patch_22" data-name="patch 22">
+        <path class="cls-1" d="M30.56,31.11l5.45-.89-3.36-2.23-2.09,3.11Z"/>
+      </g>
+      <g id="patch_23" data-name="patch 23">
+        <path class="cls-1" d="M30.56,31.11l2.09-3.11-3.45-.87,1.36,3.99Z"/>
+      </g>
+      <g id="patch_24" data-name="patch 24">
+        <path class="cls-1" d="M23.53,22.2l-3.25-4.65-.66,8.81,3.91-4.15Z"/>
+      </g>
+      <g id="patch_25" data-name="patch 25">
+        <path class="cls-1" d="M23.53,22.2l2.48-5.26-5.74.61,3.25,4.65Z"/>
+      </g>
+      <g id="patch_26" data-name="patch 26">
+        <path class="cls-1" d="M31.32,14.38l4-4.02-8.84.88,4.84,3.15Z"/>
+      </g>
+      <g id="patch_27" data-name="patch 27">
+        <path class="cls-1" d="M31.32,14.38l-1.45,3.83,3.54-.35-2.08-3.48Z"/>
+      </g>
+      <g id="patch_28" data-name="patch 28">
+        <path class="cls-1" d="M40.22,20.85l-3.19-4.73-.69,3.72,3.88,1Z"/>
+      </g>
+      <g id="patch_29" data-name="patch 29">
+        <path class="cls-1" d="M40.22,20.85l-.97,5.09,5.82-2.11-4.86-2.98Z"/>
+      </g>
+      <g id="patch_30" data-name="patch 30">
+        <path class="cls-1" d="M37.03,16.12l-5.71-1.75,2.08,3.48,3.63-1.73Z"/>
+      </g>
+      <g id="patch_31" data-name="patch 31">
+        <path class="cls-1" d="M37.03,16.12l3.19,4.73,2.45-5.52-5.64.8Z"/>
+      </g>
+      <g id="patch_32" data-name="patch 32">
+        <path class="cls-1" d="M26.01,16.94l5.3-2.56-4.84-3.15-.46,5.71Z"/>
+      </g>
+      <g id="patch_33" data-name="patch 33">
+        <path class="cls-1" d="M26.01,16.94l-2.48,5.26,3.85-1.47-1.37-3.8Z"/>
+      </g>
+      <g id="patch_34" data-name="patch 34">
+        <path class="cls-1" d="M25.11,27.77l5.44,3.35-1.36-3.99-4.08.64Z"/>
+      </g>
+      <g id="patch_35" data-name="patch 35">
+        <path class="cls-1" d="M25.11,27.77l-1.58-5.56-3.91,4.15,5.49,1.41Z"/>
+      </g>
+      <g id="patch_36" data-name="patch 36">
+        <path class="cls-1" d="M36.01,30.23l-5.45.89,2.87,4.59,2.58-5.48Z"/>
+      </g>
+      <g id="patch_37" data-name="patch 37">
+        <path class="cls-1" d="M36.01,30.23l3.25-4.29-3.41.53.16,3.76Z"/>
+      </g>
+    </g>
+  </g>
+  <circle class="cls-4" cx="32.15" cy="22.8" r="5.17"/>
+</svg>

@@ -4,10 +4,10 @@ url: "https://www.4c-multiphysics.org" # the base hostname & protocol for your s
 title: '4C'
 
 logo:
-  mobile: "images/logo/4c-logo-mobile.svg"
+  mobile: "images/logo/4C-logo-mini_rgb.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/4c-logo.svg"
+  desktop: "images/logo/4C-logo-block_rgb.svg"
   desktop_height: "100px"
   desktop_width: "100px"
   banner: "/images/illustrations/fiber-fluidflow2.jpg"
