@@ -10,5 +10,18 @@
     Bayesian Optimization, Inverse Problems and Simulation Analytics on distributed computer systems. 
     In combination with 4C, Queens can be understood as a versatile wrapper for series’ of simulations.",
     "link": "https://www.queens-py.org/"
+  },
+  {
+    "title": "MeshPy",
+    "image": {
+      "url": "/images/logo/meshpy.png",
+      "width": 400,
+      "height": "auto"
+    },
+    "description": "MeshPy is a general purpose 3D beam finite element input generator written in Python.
+    It contains advanced geometry creation and manipulation functions to create complex beam geometries,
+    including a consistent handling of finite rotations. MeshPy is especially developed for seamless
+    integration with 4C.",
+    "link": "https://imcs-compsim.github.io/meshpy/"
   }
 ]
