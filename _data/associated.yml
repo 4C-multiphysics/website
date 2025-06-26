@@ -23,5 +23,17 @@
     including a consistent handling of finite rotations. MeshPy is especially developed for seamless
     integration with 4C.",
     "link": "https://imcs-compsim.github.io/meshpy/"
+  },
+  {
+    "title": "FourCIPP",
+    "image": {
+      "url": "/images/logo/fourcipp_logo.svg",
+      "width": 400,
+      "height": "auto"
+    },
+    "description": "FourCIPP (FourC Input Python Parser) holds a Python parser to simplify the interaction
+    with 4C's YAML input files. This tool provides a streamlined approach to data handling for third party
+    tools.",
+    "link": "https://github.com/4C-multiphysics/fourcipp"
   }
 ]
