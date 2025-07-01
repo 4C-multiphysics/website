@@ -12,17 +12,17 @@
     "link": "https://www.queens-py.org/"
   },
   {
-    "title": "MeshPy",
+    "title": "BeamMe",
     "image": {
-      "url": "/images/logo/meshpy.png",
+      "url": "/images/logo/beamme.png",
       "width": 400,
       "height": "auto"
     },
-    "description": "MeshPy is a general purpose 3D beam finite element input generator written in Python.
+    "description": "BeamMe is a general purpose 3D beam finite element input generator written in Python.
     It contains advanced geometry creation and manipulation functions to create complex beam geometries,
-    including a consistent handling of finite rotations. MeshPy is especially developed for seamless
+    including a consistent handling of finite rotations. BeamMe is especially developed for seamless
     integration with 4C.",
-    "link": "https://imcs-compsim.github.io/meshpy/"
+    "link": "https://beamme-py.github.io/beamme/"
   },
   {
     "title": "FourCIPP",
