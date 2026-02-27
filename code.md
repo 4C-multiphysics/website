@@ -10,7 +10,7 @@ banner: true
 4C is written in modern c++ language, and it is open-source code, which can be found on [Github](https://www.github.com).
 It leverages the Trilinos library
 
-## Docmentation
+## Documentation
 
 Documentation of the code is available for both developers and users. 
 The [Doxygen site](https://baci.pages.gitlab.lrz.de/baci/doxygen/index.html) is of course rather intended for programmers, 
