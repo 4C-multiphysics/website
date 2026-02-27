@@ -28,7 +28,7 @@ You could use the following BibTeX entry:
 
 _Note:_ You might need to adapt the BibTeX entry depending on the citation style.
 
-Remember: It is good scientific practice to include the date, when you've visisted that website, into the citation. It's
+Remember: It is good scientific practice to include the date, when you've visited that website, into the citation. It's
 up to you (and your advisor) to include the date, depending on the type of publication.
 
 
