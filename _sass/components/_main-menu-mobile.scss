@@ -7,7 +7,10 @@
   height: 100vh;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  transition:
+    opacity 0.35s,
+    visibility 0.35s,
+    height 0.35s;
   overflow: hidden;
   display: flex;
   justify-content: center;

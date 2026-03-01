@@ -54,7 +54,6 @@ scholar:
   group_order: descending
   source: ./_bibliography
 
-
 # Build settings
 markdown: kramdown
 exclude:
