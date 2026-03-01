@@ -8,3 +8,8 @@ vendor/
 website/
 _drafts/
 Gemfile.lock
+
+# Python
+*.pyc
+utilities/python-venv/*
+*.egg-info/
