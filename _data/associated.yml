@@ -1,39 +1,30 @@
-[
-  {
-    "title": "Queens",
-    "image": {
-      "url": "/images/logo/queens_logo.svg",
-      "width": 400,
-      "height": "auto"
-    },
-    "description": "A general purpose framework for Uncertainty Quantification, Physics-Informed Machine Learning, 
-    Bayesian Optimization, Inverse Problems and Simulation Analytics on distributed computer systems. 
-    In combination with 4C, Queens can be understood as a versatile wrapper for series’ of simulations.",
-    "link": "https://www.queens-py.org/"
-  },
-  {
-    "title": "BeamMe",
-    "image": {
-      "url": "/images/logo/beamme.png",
-      "width": 400,
-      "height": "auto"
-    },
-    "description": "BeamMe is a general purpose 3D beam finite element input generator written in Python.
+- title: Queens
+  image:
+    url: /images/logo/queens_logo.svg
+    width: 400
+    height: auto
+  description: "A general purpose framework for Uncertainty Quantification, Physics-Informed Machine Learning,
+    Bayesian Optimization, Inverse Problems and Simulation Analytics on distributed computer systems.
+    In combination with 4C, Queens can be understood as a versatile wrapper for series’ of simulations."
+  link: https://www.queens-py.org/
+
+- title: BeamMe
+  image:
+    url: /images/logo/beamme.png
+    width: 400
+    height: auto
+  description: "BeamMe is a general purpose 3D beam finite element input generator written in Python.
     It contains advanced geometry creation and manipulation functions to create complex beam geometries,
-    including a consistent handling of finite rotations. BeamMe is especially developed for seamless
-    integration with 4C.",
-    "link": "https://beamme-py.github.io/beamme/"
-  },
-  {
-    "title": "FourCIPP",
-    "image": {
-      "url": "/images/logo/fourcipp_logo.svg",
-      "width": 400,
-      "height": "auto"
-    },
-    "description": "FourCIPP (FourC Input Python Parser) holds a Python parser to simplify the interaction
+    including a consistent handling of finite rotations. BeamMe is especially developed for seamless integration
+    with 4C."
+  link: https://beamme-py.github.io/beamme/
+
+- title: FourCIPP
+  image:
+    url: /images/logo/fourcipp_logo.svg
+    width: 400
+    height: auto
+  description: "FourCIPP (FourC Input Python Parser) holds a Python parser to simplify the interaction
     with 4C's YAML input files. This tool provides a streamlined approach to data handling for third party
-    tools.",
-    "link": "https://github.com/4C-multiphysics/fourcipp"
-  }
-]
+    tools."
+  link: https://github.com/4C-multiphysics/fourcipp
