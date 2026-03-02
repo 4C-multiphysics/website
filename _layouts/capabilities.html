@@ -14,33 +14,31 @@ bodyClass: "page-capabilities"
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6">
-    <h2>Examples</h2>
-    <div class="row justify-content-start">
-      {% for capability in site.data.examples %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="feature">
-          {% if capability.image %}
-          <div class="feature-image">
-            <img
-              alt="{{ feature.title }}"
-              src="{{ capability.image.url | relative_url }}"
-              width="auto"
-              height="auto"
-            />
-          </div>
-          {% endif %}
-          <h2 class="feature-title">{{ capability.title }}</h2>
-          <div class="feature-content">{{ capability.description }}</div>
-          {% if capability.link %}
-          <div class="feature-content">
-            <a href="{{ capability.link }}">Project link</a>
-          </div>
-          {% endif %}
+<div class="container pt-6 pb-6">
+  <h2>Examples</h2>
+  <div class="row justify-content-start">
+    {% for capability in site.data.examples %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="feature">
+        {% if capability.image %}
+        <div class="feature-image">
+          <img
+            alt="{{ feature.title }}"
+            src="{{ capability.image.url | relative_url }}"
+            width="auto"
+            height="auto"
+          />
         </div>
+        {% endif %}
+        <h2 class="feature-title">{{ capability.title }}</h2>
+        <div class="feature-content">{{ capability.description }}</div>
+        {% if capability.link %}
+        <div class="feature-content">
+          <a href="{{ capability.link }}">Project link</a>
+        </div>
+        {% endif %}
       </div>
-      {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </div>

@@ -28,39 +28,37 @@ bodyClass: "page-home"
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6">
-    <h1><a href='{{ "capabilities" | relative_url }}'>Featured examples</a></h1>
-  </div>
-  <div class="container">
-    <div class="row justify-content-start">
-      {% for capability in site.data.examples %} {% if capability.featured %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="feature">
-          {% if capability.image %}
-          <div class="feature-image">
-            <img
-              alt="{{ feature.title }}"
-              src="{{ capability.image.url | relative_url }}"
-              width="auto"
-              height="auto"
-            />
-          </div>
-          {% endif %}
-          <h2 class="feature-title">{{ capability.title }}</h2>
-          <div class="feature-content">{{ capability.description }}</div>
+<div class="container pt-6 pb-6">
+  <h1><a href='{{ "capabilities" | relative_url }}'>Featured examples</a></h1>
+</div>
+<div class="container">
+  <div class="row justify-content-start">
+    {% for capability in site.data.examples %} {% if capability.featured %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="feature">
+        {% if capability.image %}
+        <div class="feature-image">
+          <img
+            alt="{{ feature.title }}"
+            src="{{ capability.image.url | relative_url }}"
+            width="auto"
+            height="auto"
+          />
         </div>
+        {% endif %}
+        <h2 class="feature-title">{{ capability.title }}</h2>
+        <div class="feature-content">{{ capability.description }}</div>
       </div>
-      {% endif %} {% endfor %}
     </div>
-    <div class="row justify-content-center mt-4 mb-4">
-      <div class="col-auto">
-        <a
-          class="button button-primary"
-          href='{{ "capabilities" | relative_url }}'
-          >View All Examples</a
-        >
-      </div>
+    {% endif %} {% endfor %}
+  </div>
+  <div class="row justify-content-center mt-4 mb-4">
+    <div class="col-auto">
+      <a
+        class="button button-primary"
+        href='{{ "capabilities" | relative_url }}'
+        >View All Examples</a
+      >
     </div>
   </div>
 </div>
