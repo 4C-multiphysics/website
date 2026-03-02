@@ -66,6 +66,7 @@ To propose a change to the website, follow these steps:
 
 1. Open an issue to announce and discuss upcoming changes (optional, but recommended).
 1. Fork and clone the repository.
+1. Run `./<source_dir>/set_up_dev_env.sh` to set up the development environment and pre-commit hooks.
 1. Create a feature branch, where you will make any change.
 1. To inspect your changes, navigate into the website source code directory and
    1. for setup: run `bundle install`
@@ -76,5 +77,4 @@ To propose a change to the website, follow these steps:
 
 > Note: You might want to do a quick internet search for more details on `jekyll`, in case that these instructions are not sufficient.
 
-Since this website represents 4C publicly,
-merging of PRs (i.e. actually publishing changes) always requires another set of eyes.
+Since this website represents 4C publicly, merging of PRs (i.e. actually publishing changes) always requires another set of eyes.
