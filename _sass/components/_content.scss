@@ -20,22 +20,22 @@
     color: $steel;
   }
   h1 {
-    font-family: $font-family-base;
+    font-family: $font-family-heading;
     font-size: 34px;
     line-height: 1.26;
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 30px;
-    margin-bottom: 20px;
   }
   h2 {
-    font-family: $font-family-base;
+    font-family: $font-family-heading;
     font-size: 26px;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 1.4;
     margin-top: 30px;
+    color: $black;
   }
   h3 {
-    font-family: $font-family-base;
+    font-family: $font-family-heading;
     font-size: 20px;
     line-height: 1.4;
     font-weight: normal;

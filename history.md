@@ -1,6 +1,6 @@
 ---
 title: History
-layout: page_serifheader
+layout: page
 description: "The more than 20 year long history of 4C"
 permalink: "/history/"
 banner: true

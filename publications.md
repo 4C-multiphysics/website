@@ -1,6 +1,6 @@
 ---
 title: Publications
-layout: page_serifheader
+layout: page
 description: Publications
 bodyClass: page-community
 permalink: "/publications/"
