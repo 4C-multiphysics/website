@@ -9,35 +9,4 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  p {
-    font-size: 1.2rem;
-    font-weight: light;
-    line-height: 1.5;
-    color: $steel;
-    @include media-breakpoint-up(md) {
-      width: 80%;
-    }
-  }
-  ul,
-  ol {
-    margin-bottom: 20px;
-    ul,
-    ol {
-      margin-bottom: 0;
-    }
-  }
-  ul {
-    list-style: disc;
-  }
-  ol {
-    list-style: decimal;
-  }
-  li {
-    margin-bottom: 5px;
-    line-height: 1;
-    margin-left: 40px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: $steel;
-  }
 }

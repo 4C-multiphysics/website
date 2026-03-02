@@ -48,10 +48,14 @@ permalink: "/contributor/"
   <h2>Developer in alphabetical order</h2>
 
   <div class="row justify-content-start">
-    <ul>
-      {% for dev in site.data.developer %}
-      <li>{{ dev }}</li>
-      {% endfor %}
-    </ul>
+    <div class="col-12">
+      <div class="content">
+        <ul>
+          {% for dev in site.data.developer %}
+          <li>{{ dev }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
