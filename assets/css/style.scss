@@ -63,11 +63,6 @@ $sub-footer-text-color: $white;
 @import "components/social";
 @import "components/fonts"; // Uncomment this line to self host font
 
-// Pages
-@import "pages/page-home";
-@import "pages/page-community";
-@import "pages/page-capabilities";
-
 body {
   font-size: 16px;
   line-height: 1.2;
