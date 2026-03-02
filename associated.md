@@ -4,8 +4,7 @@ layout: associated
 description: "Side projects based on the 4C code, postprocessing tools, wrappers, etc"
 permalink: "/associated_projects/"
 banner: true
-intro_image: "/images/illustrations/associated_projects.svg"
-intro_image_absolute: false
+image: "/images/illustrations/associated_projects.svg"
 banner_hide_on_mobile: true
 ---
 
