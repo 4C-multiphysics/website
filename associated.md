@@ -1,5 +1,5 @@
 ---
-title: 4C - associated projects
+title: Associated projects
 layout: associated
 description: "Side projects based on the 4C code, postprocessing tools, wrappers, etc"
 permalink: "/associated_projects/"
