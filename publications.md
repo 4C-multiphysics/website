@@ -4,6 +4,8 @@ layout: page_serifheader
 description: Publications
 bodyClass: page-community
 permalink: "/publications/"
+banner: true
+banner_hide_on_mobile: true
 ---
 
 ## How to cite 4C
