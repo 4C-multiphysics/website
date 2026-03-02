@@ -12,31 +12,6 @@ logo:
   desktop_width: "100px"
   banner: "/images/illustrations/fiber-fluidflow2.jpg"
 
-collections:
-  capabilities:
-    output: true
-  community:
-    output: true
-  associated:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "capabilities"
-    values:
-      layout: "capability"
-  - scope:
-      path: ""
-      type: "community"
-    values:
-      layout: "contributor"
-  - scope:
-      path: ""
-      type: "associated"
-    values:
-      layout: "associate"
-
 sass:
   indentWidth: 4
   style: compressed # possible values: nested expanded compact compressed
