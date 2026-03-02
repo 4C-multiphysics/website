@@ -10,6 +10,6 @@ Currently, it is developed in collaboration between the Technical University of 
 the University of the Bundeswehr Munich (Germany), Hamburg University of Technology (Germany),
 the Helmholtz-Zentrum Hereon (Germany),
 and the German Aerospace Center (Germany). The collaboration is coordinated by
-[Prof. W. Wall](https://www.epc.ed.tum.de/lnm/staff/wall/),
+[Prof. W. A. Wall](https://www.epc.ed.tum.de/lnm/staff/wall/),
 [Prof. A. Popp](https://www.unibw.de/imcs/team/popp),
 and [Prof. C. J. Cyron](https://www.hereon.de/institutes/material_systems_modeling/team/098973/index.php.de).
