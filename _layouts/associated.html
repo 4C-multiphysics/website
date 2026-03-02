@@ -2,11 +2,8 @@
 layout: default
 ---
 
-<div class="container pb-6 pt-6 pt-md-6 pb-md-10">
+<div class="container pb-2 pt-2">
   <h1>{{ page.title }}</h1>
-</div>
-
-<div class="container pt-2 pb-2">
   <div class="row justify-content-start">
     <div class="col-12 col-md-7 col-lg-7 order-2 order-md-1">
       <div class="content">{{content}}</div>
@@ -15,7 +12,7 @@ layout: default
     <div class="col-12 col-md-5 col-lg-5 order-1 order-md-2 position-relative">
       <img
         alt="{{ page.title }}"
-        class="image {% if page.image_hide_on_mobile %} image-hide-mobile{% endif %}"
+        class="image{% if page.image_hide_on_mobile %} image-hide-mobile{% endif %}"
         src="{{ page.image | absolute_url }}"
       />
     </div>
@@ -23,7 +20,7 @@ layout: default
   </div>
 </div>
 
-<div class="container pt-6 pb-6">
+<div class="container pt-2 pb-6">
   <div class="row justify-content-start">
     {% for associate in site.data.associated %}
     <div class="col-12 col-md-6 mb-1">
