@@ -1,11 +1,28 @@
 .image {
   width: 100%;
   height: auto;
-  margin-top: -40px;
 }
+
 .image-hide-mobile {
   display: none;
   @include media-breakpoint-up(md) {
     display: block;
+  }
+}
+
+.float-image {
+  float: right;
+  width: 300px;
+  max-width: 40%;
+  height: auto;
+  margin: 30px 30px 30px 30px;
+}
+
+@include media-breakpoint-down(md) {
+  .float-image {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 70%;
   }
 }
