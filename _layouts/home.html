@@ -5,20 +5,14 @@ bodyClass: "page-home"
 
 <div class="container pt-2 pb-2">
   <h1 class="title">4C: A Comprehensive Multiphysics Simulation Framework</h1>
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8 col-lg-8 order-2 order-md-1">
-      <div class="content">{{content}}</div>
-    </div>
-    {% if page.image %}
-    <div class="col-12 col-md-4 col-lg-4 order-1 order-md-2 position-relative">
-      <img
-        alt="{{ page.title }}"
-        class="image{% if page.image_hide_on_mobile %} image-hide-mobile{% endif %}"
-        src="{{ page.image | absolute_url }}"
-      />
-    </div>
-    {% endif %}
-  </div>
+  {% if page.image %}
+  <img
+    alt="{{ page.title }}"
+    class="float-image"
+    src="{{ page.image | absolute_url }}"
+  />
+  {% endif %}
+  <div class="content">{{ content }}</div>
 </div>
 
 <div class="container pt-0 pb-2">
