@@ -32,8 +32,7 @@ If you don't want to provide a link to any webpage, include the whole `link` ite
 
 ## How to add an associated project
 
-Adding another software project that is either a wrapper around 4C, or it uses some 4C code or provides a pre-/postprocessing tool
-works in the same way as adding examples. The file to be modified is here
+Adding another software project that is either a wrapper around 4C, or it uses some 4C code or provides a pre-/postprocessing tool works in the same way as adding examples. The file to be modified is here
 
 `associated.yml`
 
@@ -46,8 +45,7 @@ Note that the names are in alphabetical order, so add it at the right place.
 ## How to add a new publication to the website?
 
 The 4C website contains a list of all publications, that have been created with the help of 4C.
-When your new 4C-related publication has been published and all its bibliographic details (e.g. volume, issue, DOI, ...) are known,
-please add the publication to the list of publications.
+When your new 4C-related publication has been published and all its bibliographic details (e.g. volume, issue, DOI, ...) are known, please add the publication to the list of publications.
 
 Bibliographic data is stored in the `bibtex` format in two files:
 

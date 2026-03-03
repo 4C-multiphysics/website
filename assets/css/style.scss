@@ -3,7 +3,6 @@
 
 // Colors
 $primary: #3d85c6;
-$primary-dark: #3d85c6;
 $secondary: #eeeeee;
 $black: #2f2f41;
 $white: #ffffff;
@@ -53,21 +52,14 @@ $sub-footer-text-color: $white;
 @import "components/main-menu-mobile";
 @import "components/hamburger";
 @import "components/buttons";
-@import "components/call";
-@import "components/mission";
 @import "components/title";
 @import "components/content";
 @import "components/intro";
-@import "components/intro-image";
+@import "components/image";
 @import "components/strip";
 @import "components/feature";
 @import "components/social";
 @import "components/fonts"; // Uncomment this line to self host font
-
-// Pages
-@import "pages/page-home";
-@import "pages/page-community";
-@import "pages/page-capabilities";
 
 body {
   font-size: 16px;

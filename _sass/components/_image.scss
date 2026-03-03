@@ -1,0 +1,11 @@
+.image {
+  width: 100%;
+  height: auto;
+  margin-top: -40px;
+}
+.image-hide-mobile {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
