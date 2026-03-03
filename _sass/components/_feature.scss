@@ -13,7 +13,6 @@
     width: auto;
     height: 100px;
     display: flex;
-    margin-bottom: 20px;
     text-align: center;
   }
   img {
@@ -21,6 +20,12 @@
     height: 100px;
   }
   .feature-title {
+    font-family: $font-family-heading;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 15px;
   }
   .feature-content {
     margin-bottom: 0;
