@@ -65,7 +65,7 @@ $hamburger-types: (
 
 // Base Hamburger (We need this)
 // ==================================================
-@import 'base';
+@import "base";
 
 // Hamburger types
 // ==================================================
@@ -89,7 +89,7 @@ $hamburger-types: (
 // @import "types/emphatic";
 // @import "types/emphatic-r";
 // @import "types/minus";
-@import 'types/slider';
+@import "types/slider";
 // @import "types/slider-r";
 // @import "types/spin";
 // @import "types/spin-r";

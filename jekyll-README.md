@@ -3,7 +3,7 @@
 
 ---
 
-Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitlab.io/jekyll
+Example [Jekyll] website using GitLab Pages. View it live at https://pages.gitlab.io/jekyll
 
 [Learn more about GitLab Pages](https://pages.gitlab.io) or read the the [official GitLab Pages documentation](https://docs.gitlab.com/ce/user/project/pages/).
 
@@ -11,7 +11,8 @@ Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitl
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+**Table of Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
 
 - [Getting Started](#getting-started)
   - [Start by forking this repository](#start-by-forking-this-repository)
@@ -29,15 +30,15 @@ Example [Jekyll] website using GitLab Pages.  View it live at https://pages.gitl
 
 You can get started with GitLab Pages using Jekyll easily by either forking this repository or by uploading a new/existing Jekyll project.
 
-Remember you need to wait for your site to build before you will be able to see your changes.  You can track the build on the **Pipelines** tab.
+Remember you need to wait for your site to build before you will be able to see your changes. You can track the build on the **Pipelines** tab.
 
 ### Start by forking this repository
 
 1. Fork this repository.
 1. **IMPORTANT:** Remove the fork relationship.
-Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.
+   Go to **Settings (⚙)** > **Edit Project** and click the **"Remove fork relationship"** button.
 1. Enable Shared Runners.
-Go to **Settings (⚙)** > **Pipelines** and click the **"Enable shared Runners"** button.
+   Go to **Settings (⚙)** > **Pipelines** and click the **"Enable shared Runners"** button.
 1. Rename the repository to match the name you want for your site.
 1. Edit your website through GitLab or clone the repository and push your changes.
 
@@ -101,15 +102,15 @@ unless you want to contribute back to the upstream project.
 
 ## Other examples
 
-* [jekyll-branched](https://gitlab.com/pages/jekyll-branched) demonstrates how you can keep your GitLab Pages site in one branch and your project's source code in another.
-* The [jekyll-themes](https://gitlab.com/groups/jekyll-themes) group contains a collection of example projects you can fork (like this one) having different visual styles.
+- [jekyll-branched](https://gitlab.com/pages/jekyll-branched) demonstrates how you can keep your GitLab Pages site in one branch and your project's source code in another.
+- The [jekyll-themes](https://gitlab.com/groups/jekyll-themes) group contains a collection of example projects you can fork (like this one) having different visual styles.
 
 ## Troubleshooting
 
 1. CSS is missing! That means two things:
-    * Either that you have wrongly set up the CSS URL in your templates, or
-    * your static generator has a configuration option that needs to be explicitly
-    set in order to serve static assets under a relative URL.
+   - Either that you have wrongly set up the CSS URL in your templates, or
+   - your static generator has a configuration option that needs to be explicitly
+     set in order to serve static assets under a relative URL.
 
 [ci]: https://about.gitlab.com/gitlab-ci/
 [Jekyll]: http://jekyllrb.com/

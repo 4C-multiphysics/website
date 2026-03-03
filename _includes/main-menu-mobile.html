@@ -4,9 +4,11 @@
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url }}">
-        {% if item.image_mobile %}<img src="{{ item.image_mobile | relative_url }}" alt="GitHub"
-          style="width: 30px; height: 30px; vertical-align: middle;">{% endif %}
-        {{ item.name }}
+        {% if item.image_mobile %}<img
+          src="{{ item.image_mobile | relative_url }}"
+          alt="GitHub"
+          style="width: 30px; height: 30px; vertical-align: middle"
+        />{% endif %} {{ item.name }}
       </a>
     </li>
     {% endfor %}

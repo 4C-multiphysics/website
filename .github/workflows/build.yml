@@ -13,6 +13,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  checkcode:
+    runs-on: ubuntu-latest
+    env:
+      SKIP: no-commit-to-branch
+    steps:
+      - uses: actions/checkout@v6
+      - name: Run pre-commit
+        run: |
+          ./utilities/set_up_dev_env.sh
+          source ./utilities/python-venv/bin/activate
+          pre-commit clean
+          pre-commit run --all-files --show-diff-on-failure
+
   build:
     runs-on: ubuntu-latest
     container:

@@ -10,21 +10,21 @@ Based on this site generator it is easy for everybody to include some new inform
 
 ## How to add a new example to the website?
 
-Examples are collected in the file `<source_dir>/_data/examples.json`.  Each example is an entry in the dictionary, which has the following shape
+Examples are collected in the file `<source_dir>/_data/examples.json`. Each example is an entry in the dictionary, which has the following shape
 
 ```json
-  {
-    "title": "Here comes the title",
-    "image": {
-      "url": "/images/capabilities/<image-name>",
-      "width": 400,
-      "height": "auto"
-    },
-    "featured": false,
-    "description": "Here an explanatory sentence about the project should be given",
-    "link": "<url_pointing_to_more_information.html",
-    "author": "N. N."
-  }
+{
+  "title": "Here comes the title",
+  "image": {
+    "url": "/images/capabilities/<image-name>",
+    "width": 400,
+    "height": "auto"
+  },
+  "featured": false,
+  "description": "Here an explanatory sentence about the project should be given",
+  "link": "<url_pointing_to_more_information.html",
+  "author": "N. N."
+}
 ```
 
 The `featured` flag may be set to true if the examples should be shown on the home page.
@@ -66,15 +66,15 @@ To propose a change to the website, follow these steps:
 
 1. Open an issue to announce and discuss upcoming changes (optional, but recommended).
 1. Fork and clone the repository.
+1. Run `./<source_dir>/set_up_dev_env.sh` to set up the development environment and pre-commit hooks.
 1. Create a feature branch, where you will make any change.
 1. To inspect your changes, navigate into the website source code directory and
-    1. for setup: run `bundle install`  
-    **Remark:** You might set the a path to not install the dependencies into the system installation: `bundle install --path vendor/bundle`
-    1. run `bundle exec jekyll serve` from the terminal and follow the instructions there.
+   1. for setup: run `bundle install`
+      **Remark:** You might set the a path to not install the dependencies into the system installation: `bundle install --path vendor/bundle`
+   1. run `bundle exec jekyll serve` from the terminal and follow the instructions there.
 1. Commit changes. Push the branch to your fork on GitHub.
 1. Open a pull request.
 
 > Note: You might want to do a quick internet search for more details on `jekyll`, in case that these instructions are not sufficient.
 
-Since this website represents 4C publicly,
-merging of PRs (i.e. actually publishing changes) always requires another set of eyes.
+Since this website represents 4C publicly, merging of PRs (i.e. actually publishing changes) always requires another set of eyes.

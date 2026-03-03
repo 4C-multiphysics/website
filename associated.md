@@ -11,4 +11,3 @@ banner_hide_on_mobile: true
 
 The following projects are connected to the 4C code.
 They may either use part of the code as libraries, provide pre- or postprocessing capabilities, or act as a wrapper around the code.
-

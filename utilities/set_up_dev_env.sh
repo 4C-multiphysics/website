@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Exit the script at the first failure
+set -e
+
+if [ ! -f "./utilities/set_up_dev_env.sh" ]; then
+    echo "Please run this script from the root directory of the repository."
+    exit 1
+fi
+
+# Path to the python virtual environment.
+PYTHON_VENV="`dirname "$0"`/python-venv"
+
+# If the virtual environment already exists, delete it.
+if [ -d "$PYTHON_VENV" ]; then rm -Rf $PYTHON_VENV; fi
+
+# Path to python
+PYTHON_PATH=${1:-python3}
+
+if ! $PYTHON_PATH -c "import sys; exit(sys.version_info < (3, 7))"; then
+    echo "Provided Python version ${PYTHON_PATH} does not meet the minimum requirement (>=3.7)."
+    echo "Please provide a compatible Python executable as an argument to this script."
+    exit 1
+fi
+
+# Setup the virtual environment and source it.
+$PYTHON_PATH -m venv "${PYTHON_VENV}"
+source "${PYTHON_VENV}"/bin/activate
+
+# Install all the modules defined in requirements.txt.
+pip install --upgrade pip
+pip install wheel
+pip install pre-commit
+
+# Additionally store the hash of the ingredients for the virtual environment.
+./utilities/code_checks/check_venv.sh --update
+
+# Install the pre-commit hooks.
+pre-commit install

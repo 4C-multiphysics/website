@@ -31,7 +31,6 @@ _Note:_ You might need to adapt the BibTeX entry depending on the citation style
 Remember: It is good scientific practice to include the date, when you've visited that website, into the citation. It's
 up to you (and your advisor) to include the date, depending on the type of publication.
 
-
 <!--{% bibliography --file phdtheses -q @*[title=A monolithic solver for fluid-structure interaction with adaptive time stepping and a hybrid preconditioner] %}-->
 
 <p><br></p>

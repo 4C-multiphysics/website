@@ -1,7 +1,7 @@
 ---
 title: 4C
 layout: home
-description: 
+description:
 banner: true
 banner_hide_on_mobile: true
 intro_image: "images/illustrations/4c_logo.png"
@@ -12,7 +12,7 @@ show_call_box: false
 
 ## What is 4C Multiphysics?
 
-4C (Comprehensive Computational Community Code) is a powerful research code for multiphysics computer simulations. 
+4C (Comprehensive Computational Community Code) is a powerful research code for multiphysics computer simulations.
 Building on over 20 years of research, 4C can model a plethora of physical problems, including
 
 - solid mechanics,

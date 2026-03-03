@@ -1,28 +1,38 @@
-<div class='header'>
+<div class="header">
   <div class="container">
     <div class="logo">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+      <a href="{{ site.baseurl }}"
+        ><img
+          width="{{ site.logo.desktop_width }}"
+          height="{{ site.logo.desktop_height }}"
+          alt="{{ site.title }}"
+          src="{{ site.logo.mobile | relative_url }}"
+      /></a>
     </div>
     <div class="logo-mobile">
-      <a href="{{ site.baseurl }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+      <a href="{{ site.baseurl }}"
+        ><img
+          width="{{ site.logo.mobile_width }}"
+          height="{{ site.logo.mobile_height }}"
+          alt="{{ site.title }}"
+          src="{{ site.logo.mobile | relative_url }}"
+      /></a>
     </div>
-    {% include main-menu.html %}
-    {% include hamburger.html %}
+    {% include main-menu.html %} {% include hamburger.html %}
   </div>
-
 </div>
 
 {% if page.banner %}
 <div class="row">
   <div class="container-fluid">
-    <p>
-      <br><br>
-    </p>
-           <img alt="banner"
-            class="intro-image{% if page.banner_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
-            src={{ site.logo.banner | relative_url }}
-            width="100%"
-            height="100%">
+    <p><br /><br /></p>
+    <img
+      alt="banner"
+      class="intro-image{% if page.banner_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+      src="{{ site.logo.banner | relative_url }}"
+      width="100%"
+      height="100%"
+    />
   </div>
 </div>
 {% endif %}
