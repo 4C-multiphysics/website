@@ -1,6 +1,7 @@
 ---
 title: Contributing institutes
 layout: contributor
+description: "Contributors"
 permalink: "/contributors/"
 banner: true
 banner_hide_on_mobile: true

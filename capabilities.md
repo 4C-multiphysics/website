@@ -1,7 +1,7 @@
 ---
 title: Capabilities and examples
 layout: capabilities
-description: Features and examples
+description: "Capabilities and examples"
 permalink: "/capabilities/"
 banner: true
 banner_hide_on_mobile: true

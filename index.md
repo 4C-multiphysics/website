@@ -1,7 +1,7 @@
 ---
 title: 4C
 layout: home
-description:
+description: "Home page"
 banner: true
 banner_hide_on_mobile: true
 image: "/images/logo/4C-logo-block_rgb.svg"

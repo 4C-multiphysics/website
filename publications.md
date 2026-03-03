@@ -1,8 +1,7 @@
 ---
 title: Publications
 layout: page
-description: Publications
-bodyClass: page-community
+description: "Publications"
 permalink: "/publications/"
 banner: true
 banner_hide_on_mobile: true
