@@ -1,0 +1,27 @@
+h1 {
+  font-family: $font-family-heading;
+  font-size: 34px;
+  line-height: 1.26;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h2 {
+  font-family: $font-family-heading;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+h1 + h2 {
+  margin-top: 30px;
+}
+h3 {
+  font-family: $font-family-heading;
+  color: $primary;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-top: 15px;
+}

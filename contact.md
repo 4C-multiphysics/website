@@ -1,8 +1,10 @@
 ---
 title: Contact
-layout: contact
-description: Contact
+layout: page
+description: "Contact information"
 permalink: "/contact/"
+banner: true
+banner_hide_on_mobile: true
 ---
 
 You can become part of the 4C community via the [4C GitHub repository](https://github.com/4C-multiphysics/4C).

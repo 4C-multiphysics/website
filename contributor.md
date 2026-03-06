@@ -1,7 +1,10 @@
 ---
 title: Contributing institutes
 layout: contributor
+description: "Contributors"
 permalink: "/contributors/"
+banner: true
+banner_hide_on_mobile: true
 ---
 
 The project 4C was started in 2002 at the Technical University of Munich under supervision of Prof. W. A. Wall

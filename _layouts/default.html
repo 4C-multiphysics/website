@@ -47,7 +47,7 @@
     {% endif %}
   </head>
 
-  <body class="page {{layout.bodyClass}}">
+  <body class="page {{ bodyClass }}">
     {% include main-menu-mobile.html %}
     <div id="wrapper" class="wrapper">
       {% include header.html headerClass='header-extra' %} {{content}}

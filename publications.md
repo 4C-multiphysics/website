@@ -1,9 +1,10 @@
 ---
 title: Publications
-layout: page_serifheader
-description: Publications
-bodyClass: page-community
+layout: page
+description: "Publications"
 permalink: "/publications/"
+banner: true
+banner_hide_on_mobile: true
 ---
 
 ## How to cite 4C
@@ -31,23 +32,24 @@ _Note:_ You might need to adapt the BibTeX entry depending on the citation style
 Remember: It is good scientific practice to include the date, when you've visited that website, into the citation. It's
 up to you (and your advisor) to include the date, depending on the type of publication.
 
-<!--{% bibliography --file phdtheses -q @*[title=A monolithic solver for fluid-structure interaction with adaptive time stepping and a hybrid preconditioner] %}-->
+## Publications
 
-<p><br></p>
-<p><br></p>
+Publications in which 4C (formerly BACI) has been used are listed below.
 
-## Publications in which 4C (formerly BACI) has been used
-
-- [Journals](#journals)
-- [PhD theses](#phd-thesis)
-
-## Journals
+<details>
+  <summary style="font-size: 1.3rem; font-weight: 600;">
+    Journals
+  </summary>
 
 {% bibliography --file papers %}
 
-<p></p>
-<p></p>
+</details>
 
-## PhD Thesis
+<details>
+  <summary style="font-size: 1.3rem; font-weight: 600;">
+    PhD Theses
+  </summary>
 
 {% bibliography --file phdtheses %}
+
+</details>

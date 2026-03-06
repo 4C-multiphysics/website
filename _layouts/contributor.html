@@ -1,21 +1,10 @@
 ---
 layout: default
-bodyClass: "page-community"
-permalink: "/contributor/"
 ---
 
-<div class="container pt-2">
-  <h1>{{ page.title }}</h1>
-</div>
-
-<div class="container pt-2 pt-md-2">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="contributor contributor-single">
-        <div class="content">{{content}}</div>
-      </div>
-    </div>
-  </div>
+<div class="container pb-2 pt-2">
+  <h1>{{page.title}}</h1>
+  <div class="content">{{content}}</div>
 </div>
 
 <div class="container pt-2 pb-2">
@@ -34,7 +23,7 @@ permalink: "/contributor/"
           />
         </div>
         {% endif %}
-        <h2 class="feature-title">{{ institution.name }}</h2>
+        <span class="feature-title">{{ institution.name }}</span>
         <a target="_blank" href="{{ contributor.institution.url }}">
           <div class="content">{{ institution.institute }}</div>
         </a>
@@ -44,14 +33,17 @@ permalink: "/contributor/"
   </div>
 </div>
 
-<div class="container">
+<div class="container pt-2 pb-6">
   <h2>Developer in alphabetical order</h2>
-
   <div class="row justify-content-start">
-    <ul>
-      {% for dev in site.data.developer %}
-      <li>{{ dev }}</li>
-      {% endfor %}
-    </ul>
+    <div class="col-12">
+      <div class="content">
+        <ul>
+          {% for dev in site.data.developer %}
+          <li>{{ dev }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
