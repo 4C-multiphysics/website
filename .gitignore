@@ -2,6 +2,7 @@ _site
 .sass-cache
 .idea/
 .jekyll-metadata
+node_modules/
 public/
 vendor/
 .bundle/
