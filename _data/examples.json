@@ -19,7 +19,7 @@
       "height": "auto"
     },
     "featured": false,
-    "description": "Peristaltic contractions of human stomach, modelled using monolithic electro-mechanical coupling",
+    "description": "Peristaltic contractions of the human stomach, modelled using partitioned electro-mechanical coupling",
     "link": "https://doi.org/10.1016/j.cma.2025.118549",
     "author": "Maire Henke"
   },
