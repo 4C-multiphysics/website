@@ -25,3 +25,4 @@ repos:
     rev: v1.14.0
     hooks:
       - id: bibtex-tidy
+        args: [--omit=doi]
