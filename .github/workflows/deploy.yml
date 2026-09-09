@@ -29,8 +29,13 @@ jobs:
         shell: bash
         run: |
           sudo apt-get install -y lftp
-          cd $LOCAL_DIR
-          lftp -u $USERNAME --env-password $SERVER -e "set ftp:ssl-protect-data true; set ssl:verify-certificate false; set ftp:list-options -a; cd $SERVER_DIR; mirror -R --delete . .; exit"
+          cd "$LOCAL_DIR"
+          if [ -z "$(find . -mindepth 1 -maxdepth 1 -print -quit)" ]; then
+              echo "Local directory '$LOCAL_DIR' is empty; aborting deploy" >&2
+              exit 1
+          fi
+          # Sync local directory to web server
+          lftp -u "$USERNAME" --env-password "$SERVER" -e "set ftp:ssl-protect-data true; set ssl:verify-certificate false; set ftp:list-options -a; cd $SERVER_DIR; mirror -R --delete . .; exit"
         env:
           SERVER: ${{ vars.FOUR_C_WEBSITE_SERVER }}
           USERNAME: ${{ secrets.FOUR_C_WEBSITE_USERNAME }}
